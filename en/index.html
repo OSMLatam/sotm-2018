@@ -1,0 +1,183 @@
+---
+ref: index
+layout: default
+lang: en
+---
+
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <img src="{{ "/images/LogoSOTM2018.png" | relative_url }}" alt="State of the Map LATAM - Lima 2017" class="img-responsive main-logo">
+          <h1>The Latin American <span>OpenStreetMap Conference</span></h1>
+          <h2>24<sup>th</sup> - 25<sup>th</sup> September</h2>
+          <div class="about-button">
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a class="btn btn-default" href="#about" role="button">About the event</a>
+            </span>
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </span>
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a target="_blank" class="btn btn-default"
+              href="https://www.papercall.io/events/1195" role="button">
+                Send your presentation
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      About the event
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <p>
+        State of the Map Latam is the annual conference for all mappers and users of OpenStreetMap in Latin America. <a target="_blank" href="https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2015"> The first edition </a> was held in Santiago de Chile in September 2015, <a target="_blank" href="https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2016"> the second edition </a> was held in São Paulo in November 2016. The <a target="_blank" href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2017#Topics">third edition</a> was held in Lima in November 2017.<br>
+        The program includes talks, panels, workshops and mapatons related to OpenStreetMap.
+      </p>
+      <p>
+        As well as OSM mappers, we will have the participation of Open Data communities, Free Software and Open Source communities, students, researchers, geoinformation professionals, non-governmental organizations, companies, public institutions, etc.
+      </p>
+      <p>
+        Our conference has a <a data-toggle="modal" data-target="#code-of-conduct-{{page.lang}}" href="">code of conduct</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!--
+<section id="program" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Program
+    </h2>
+  </div>
+  <div ng-app="App" ng-controller="sotm">
+    <div ng-repeat="day in days">
+      <h3>{[{ day.date.en }]}</h3>
+      <br>
+      {% include program.html %}
+      <br>
+    </div>
+  </div>
+</section>
+-->
+
+<section id="venue" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Venue
+    </h2>
+  </div>
+
+  <div class="container-fluid row">{% include map.html %}</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-sm-12">
+        <div class="thumbnail">
+          <div class="caption text-center">
+            <h3>Design Metropolitan Center</h3>
+            <p class="venue">
+		The <a target="_blank" href="http://www.buenosaires.gob.ar/cmd"> CMD </a>, at the heart of the Design District, is a publicly-based international institution dedicated to promoting the economic, social and cultural importance of design.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <br>
+      <p>
+        Check <a href="https://en.wikipedia.org/wiki/Visa_policy_of_Argentina" target="_blank">Argentina's visa policy</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="join-us" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      How to participate
+    </h2>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-4 col-md-3 col-md-offset-1">
+      <a href="https://www.papercall.io/events/1195">
+        <div class="thumbnail">
+          <span class="glyphicon glyphicon-check"></span>
+          <div class="caption text-center">
+            <h3>Register</h3>
+            <p>Send your talk proposal until September 25th</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <span class="glyphicon glyphicon-comment"></span>
+        <div class="caption text-center">
+          <h3>Share</h3>
+          <p>Invite your friends and spread the word!</p>
+          <div class="row">
+            <div class="col-md-6 text-right twitter-col">
+              <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet?text=Participa%20del%20State%20of%20the%20Map%20Latam%202018!%20La%20Conferencia%20Latinoamericana%20de%20OpenStreetMap,%2024%20Sep%20-%2025%20Sep%20en%20Buenos%20Aires"
+              data-size="large">
+                Tweet
+              </a>
+            </div>
+            <div class="col-md-6 text-left fb-col">
+              <div class="fb-like" data-href="http://state.osmlatam.org"
+              data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+      <a href="mailto:info@osmlatam.org?subject=Sponsorship">
+        <div class="thumbnail">
+          <span class="glyphicon glyphicon-briefcase"></span>
+          <div class="caption text-center row">
+            <h3>Sponsor</h3>
+            <p>Promote your business and support the Latam community. Write to us info@osmlatam.org</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!--
+<section id="sponsors" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Our conference is supported by:
+    </h2>
+    <p>
+      <a href="http://telenav.com/">
+        <img src="/images/telenav.png" alt="Telenav" width="200">
+      </a>
+    </p>
+  </div>
+</section>
+-->
+
+{% include modals.html %}

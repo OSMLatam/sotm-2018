@@ -1,0 +1,13 @@
+<div id="map"></div>
+
+<script>
+
+  var map = L.map('map', {scrollWheelZoom: false}).setView([-34.6564, -58.3787], 16);
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  var library = L.marker([ -34.6550642, -58.3800079])
+    .bindPopup('<p class="popup-content text-center"><strong>Centro Metropolitano de Diseño<br>Ciudad Autonoma de Buenos Aires</strong></p>')
+    .addTo(map);
+</script>

@@ -1,0 +1,185 @@
+---
+ref: index
+layout: default
+lang: es
+---
+
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <img src="{{ "/images/LogoSOTM2018.png" | relative_url }}" alt="State of the Map LATAM - Buenos Aires 2018" class="img-responsive main-logo">
+          <h1>La Conferencia Latinoamericana <span>de OpenStreetMap</span></h1>
+          <h2>24 y 25 de Septiembre</h2>
+          <div class="about-button">
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a class="btn btn-default" href="#about" role="button">Acerca del evento</a>
+            </span>
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </span>
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a target="_blank" class="btn btn-default"
+              href="https://www.papercall.io/events/1195" role="button">
+                Envia tu presentación
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Acerca del evento
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <p>
+        State of the Map Latam es el encuentro anual de la comunidad de colaboradores y usuarios de
+        OpenStreetMap en Latinoamérica. <a target="_blank" href="https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2015"> La primera edición </a> se realizó en Santiago de Chile en
+        Septiembre de 2015, <a target="_blank" href="https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2016"> la segunda edición </a> se desarrolló en São Paulo en Noviembre de 2016. La <a target="_blank" href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2017">tercera edición</a> se realizó en Lima en Noviembre de 2017.<br> Las actividades del evento se componen de charlas, paneles, talleres y mapatones relacionados con OpenStreetMap.
+      </p>
+      <p>
+        Además de mapeadores de OSM, tendremos la participación de comunidades de Datos Abiertos, Software Libre y Open Source, estudiantes, investigadores, profesionales de la geoinformación, organizaciones no gubernamentales, empresas, instituciones públicas, etc.
+      </p>
+      <p>
+        Nuestra conferencia tiene un
+        <a data-toggle="modal" data-target="#code-of-conduct-{{page.lang}}" href="">código de conducta</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!--
+<section id="program" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Programación
+    </h2>
+  </div>
+  <div ng-app="App" ng-controller="sotm">
+    <div ng-repeat="day in days">
+      <h3>{[{ day.date.es }]}</h3>
+      <br>
+      {% include program.html %}
+      <br>
+    </div>
+  </div>
+</section>
+-->
+
+<section id="venue" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Local
+    </h2>
+  </div>
+
+  <div class="container-fluid row">{% include map.html %}</div>
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-sm-12">
+        <div class="thumbnail">
+          <div class="caption text-center">
+            <h3>Centro Metropolitano de Diseño</h3>
+            <p class="venue">
+		El <a target="_blank" href="http://www.buenosaires.gob.ar/cmd">CMD</a>, corazón del Distrito de Diseño, es una institución pública referente a nivel internacional, dedicada a la promoción de la importancia económica, social y cultural del diseño.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p>
+        Verifique si necesita una
+        <a href="https://en.wikipedia.org/wiki/Visa_policy_of_Argentina" target="_blank">visa para entrar en Argentina</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="join-us" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Como participar
+    </h2>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-4 col-md-3 col-md-offset-1">
+      <a href="https://www.papercall.io/events/1195">
+        <div class="thumbnail">
+          <span class="glyphicon glyphicon-check"></span>
+          <div class="caption text-center">
+            <h3>Registrese</h3>
+            <p>Envíe su propuesta de charla hasta el 25 de Septiembre</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-sm-4 col-md-4">
+      <div class="thumbnail">
+        <span class="glyphicon glyphicon-comment"></span>
+        <div class="caption text-center">
+          <h3>Comparta</h3>
+          <p>Invite a sus amigos y ayude a divulgar nuestro evento</p>
+          <div class="row">
+            <div class="col-md-6 text-right twitter-col">
+              <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet?text=Participa%20del%20State%20of%20the%20Map%20Latam%202018!%20La%20Conferencia%20Latinoamericana%20de%20OpenStreetMap,%2024%20Sep%20-%2025%20Sep%20en%20Buenos%20Aires"
+              data-size="large">
+                Tweet
+              </a>
+            </div>
+            <div class="col-md-6 text-left fb-col">
+              <div class="fb-like" data-href="http://state.osmlatam.org"
+              data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 col-md-3">
+      <a href="mailto:info@osmlatam.org?subject=Sponsorship">
+        <div class="thumbnail">
+          <span class="glyphicon glyphicon-briefcase"></span>
+          <div class="caption text-center row">
+            <h3>Patrocine</h3>
+            <p>Promocione su negocio y ayude a la comunidad Latam. Escríbenos a info@osmlatam.org</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!--
+<section id="sponsors" class="container content-section text-center">
+  <div class="row text-center">
+    <h2>
+      Nuestra conferencia tiene el soporte de:
+    </h2>
+    <p>
+      <a href="http://telenav.com/">
+        <img src="{{ "/images/telenav.png" | prepend: site.baseurl }}" alt="Telenav" width="200">
+      </a>
+    </p>
+  </div>
+</section>
+-->
+
+{% include modals.html %}
