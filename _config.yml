@@ -12,7 +12,7 @@ email: "info@osmlatam.org"
 facebook_page: "osmlatam"
 twitter_username: "osmlatam"
 github_username:
-website: "http://state.osmlatam.org"
+# website: "http://state.osmlatam.org"
 exclude: [README.md]
 
 # Build settings
