@@ -39,7 +39,7 @@ t:
         # url: http://state.osmlatam.org/#register
       wiki:
         label: Wiki
-        url: http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
   es:
     language_name: Español
     menu:
@@ -59,7 +59,7 @@ t:
        # url: http://state.osmlatam.org/#registrar
       wiki:
         label: Wiki
-        url: http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2018
   pt:
     language_name: Português
     menu:
@@ -79,4 +79,4 @@ t:
        # url: http://state.osmlatam.org/#registrar
       wiki:
         label: Wiki
-        url: http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018
