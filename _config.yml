@@ -28,7 +28,7 @@ t:
         url: /en/#about
       program:
         label: Send your presentation
-        url: https://www.papercall.io/events/1195
+        url: https://www.papercall.io/sotm-latam-2018
         # label: Program
         # url: /en/#program
       venue:
@@ -48,7 +48,7 @@ t:
         url: /#about
       program:
         label: Envia tu presentación
-        url: https://www.papercall.io/events/1195
+        url: https://www.papercall.io/sotm-latam-2018
         # label: Programa
         # url: /#program
       venue:
@@ -68,7 +68,7 @@ t:
         url: /pt/#about
       program:
         label: Envia sua palestra
-        url: https://www.papercall.io/events/1195
+        url: https://www.papercall.io/sotm-latam-2018
         # label: Programa
         # url: /pt/#program
       venue:
