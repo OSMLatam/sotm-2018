@@ -34,9 +34,9 @@ t:
       venue:
         label: Venue
         url: /en/#venue
-      # register:
-        # label: Register
-        # url: http://state.osmlatam.org/#register
+      register:
+        label: Register
+        url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
@@ -54,9 +54,9 @@ t:
       venue:
         label: Local
         url: /#venue
-      # register:
-       # label: Regístrese
-       # url: http://state.osmlatam.org/#registrar
+      register:
+        label: Regístrate
+        url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2018
@@ -74,9 +74,9 @@ t:
       venue:
         label: Local
         url: /pt/#venue
-      # register:
-       # label: Inscreva-se
-       # url: http://state.osmlatam.org/#registrar
+      register:
+       label: Inscreva-se
+       url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018
