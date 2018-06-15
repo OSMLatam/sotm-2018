@@ -52,7 +52,7 @@ t:
         # label: Programa
         # url: /#program
       venue:
-        label: Local
+        label: Lugar
         url: /#venue
       register:
         label: Regístrate
