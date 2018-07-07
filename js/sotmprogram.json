@@ -28,7 +28,7 @@
         },
         {
           "hour": "10:30",
-          "type": 2,
+          "type": 1,
           "talk": 1,
           "location": 1,
           "duration": "30min"
@@ -183,7 +183,7 @@
       "title": {
         "en": "Workshop",
         "es": "Taller",
-        "pt": "Oficina"
+        "pt": "Workshop"
       }
     },
     {
