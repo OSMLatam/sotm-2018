@@ -2,153 +2,242 @@
   "days": [
     {
       "id": 1,
-      "date": {"en": "Wednesday - November 29", "es": "Miércoles - 29 de Noviembre", "pt": "Quarta-feira - 29 de Novembro"},
+      "date": {
+        "en": "Monday - September 24",
+        "es": "Lunes - 24 de Septiembre",
+        "pt": "Segunda-feira - 24 de Setembro"
+      },
       "activities": [
-	{"hour": "13:30", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "14:00", "type": "interval", "message": {"en": "Opening", "es": "Apertura", "pt": "Abertura"}},
-	{"hour": "14:10", "type": 2, "talk": 1, "location": 2, "duration": "50min"},
-	{"hour": "15:00", "type": 2, "talk": 2, "location": 2, "duration": "2h 00min"},
-	{"hour": "17:00", "type": 2, "talk": 3, "location": 2, "duration": "1h"},
-	{"hour": "18:00", "type": 2, "talk": 4, "location": 2, "duration": "30min"}
+        {
+          "hour": "9:00",
+          "type": "interval",
+          "message": {
+            "en": "Registration of participants",
+            "es": "Registro de participantes",
+            "pt": "Registro de participantes"
+          }
+        },
+        {
+          "hour": "10:00",
+          "type": "interval",
+          "message": {
+            "en": "Opening",
+            "es": "Apertura",
+            "pt": "Abertura"
+          }
+        },
+        {
+          "hour": "10:30",
+          "type": 2,
+          "talk": 1,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "11:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "13:00",
+          "type": "interval",
+          "message": {
+            "en": "Lunch",
+            "es": "Almuerzo",
+            "pt": "Almoço"
+          }
+        },
+        {
+          "hour": "16:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "night",
+          "type": "interval",
+          "message": {
+            "en": "GeoBeers",
+            "es": "Geobirras",
+            "pt": "Geobirras"
+          }
+        }
       ]
     },
     {
       "id": 2,
-      "date": {"en": "Thursday - November 30", "es": "Jueves - 30 de Noviembre", "pt": "Quinta-feira - 30 de Novembro"},
+      "date": {
+        "en": "Tuesday - September 25",
+        "es": "Martes - 25 de Septiembre",
+        "pt": "Terça-feira - 25 de Setembro"
+      },
       "activities": [
-	{"hour": "10:00", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "10:30", "type": "interval", "message": {"en": "Opening", "es": "Apertura", "pt": "Abertura"}},
-	{"hour": "10:40", "type": 2, "talk": 7, "location": 2, "duration": "1h"},
-	{"hour": "11:40", "type": 1, "talk": 6, "location": 1, "duration": "30min"},
-	{"hour": "12:10", "type": 3, "talk": 8, "location": 1, "duration": "1h"},
-	{"hour": "13:10", "type": "interval", "message": {"en": "Lunch", "es": "Almuerzo", "pt": "Almoço"}},
-	{"hour": "14:00", "type": 1, "talk": 35, "location": 1, "duration": "30min"},
-	{"hour": "14:30", "type": 1, "talk": 10, "location": 1, "duration": "30min"},
-	{"hour": "15:00", "type": 1, "talk": 11, "location": 1, "duration": "30min"},
-	{"hour": "15:30", "type": 1, "talk": 12, "location": 1, "duration": "30min"},
-	{"hour": "16:00", "type": 3, "talk": 13, "location": 1, "duration": "55min"},
-	{"hour": "17:00", "type": 1, "talk": 16, "location": 1, "duration": "30min"},
-	{"hour": "17:30", "type": 1, "talk": 15, "location": 1, "duration": "30min"},
-	{"hour": "18:00", "type": 1, "talk": 17, "location": 1, "duration": "30min"}
-      ]
-    },
-    {
-      "id": 3,
-      "date": {"en": "Friday - December 1", "es": "Viernes - 1 de Diciembre", "pt": "Sexta-feira - 1 de Dezembro"},
-      "activities": [
-	{"hour": "11:00", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "11:30", "type": 1, "talk": 19, "location": 1, "duration": "30min"},
-	{"hour": "12:00", "type": 1, "talk": 20, "location": 1, "duration": "30min"},
-	{"hour": "12:30", "type": 1, "talk": 22, "location": 1, "duration": "30min"},
-	{"hour": "13:00", "type": "interval", "message": {"en": "Lunch", "es": "Almuerzo", "pt": "Almoço"}},
-	{"hour": "14:00", "type": 2, "talk": 21, "location": 2, "duration": "1h"},
-	{"hour": "15:00", "type": 1, "talk": 24, "location": 1, "duration": "30min"},
-	{"hour": "15:30", "type": 1, "talk": 23, "location": 1, "duration": "30min"},
-	{"hour": "16:00", "type": 1, "talk": 34, "location": 1, "duration": "30min"},
-	{"hour": "16:30", "type": 1, "talk": 26, "location": 1, "duration": "30min"},
-	{"hour": "17:00", "type": 1, "talk": 27, "location": 1, "duration": "30min"},
-	{"hour": "17:30", "type": 3, "talk": 28, "location": 1, "duration": "1h"},
-	{"hour": "18:30", "type": 3, "talk": 29, "location": 1, "duration": "1h"},
-	{"hour": "19:30", "type": 3, "talk": 36, "location": 1, "duration": "1h"}
-      ]
-    },
-    {
-      "id": 4,
-      "date": {"en": "Saturday - December 2", "es": "Sabado - 2 de Diciembre", "pt": "Sábado - 2 de Dezembro"},
-      "activities": [
-	{"hour": "13:30", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "14:00", "type": "interval", "message": {"en": "Opening", "es": "Apertura", "pt": "Abertura"}},
-	{"hour": "14:10", "type": 2, "talk": 32, "location": 2, "duration": "1h"},
-	{"hour": "17:00", "type": 2, "talk": 33, "location": 2, "duration": "30min"},
-	{"hour": "17:30", "type": "interval", "message": {"en": "Closing", "es": "Clausura", "pt": "Encerramento"}}
+        {
+          "hour": "9:00",
+          "type": "interval",
+          "message": {
+            "en": "Registration of participants",
+            "es": "Registro de participantes",
+            "pt": "Registro de participantes"
+          }
+        },
+        {
+          "hour": "11:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "13:00",
+          "type": "interval",
+          "message": {
+            "en": "Lunch",
+            "es": "Almuerzo",
+            "pt": "Almoço"
+          }
+        },
+        {
+          "hour": "16:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "night",
+          "type": "interval",
+          "message": {
+            "en": "Closure",
+            "es": "Cierre",
+            "pt": "Fechamento"
+          }
+        },
+        {
+          "hour": "night",
+          "type": "interval",
+          "message": {
+            "en": "Farewell geoBeers",
+            "es": "Geobirras de despedida",
+            "pt": "Geobirras de despedida"
+          }
+        }
       ]
     }
   ],
   "locations": [
-    {"id": 1, "name": {"en": "Auditorium", "es": "Auditorio", "pt": "Auditório"}},
-    {"id": 2, "name": {"en": "Laboratory", "es": "Laboratorio", "pt": "Laboratório"}}
+    {
+      "id": 1,
+      "name": {
+        "en": "Room 1",
+        "es": "Sala 1",
+        "pt": "Sala 1"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Room 2",
+        "es": "Sala 2",
+        "pt": "Sala 2"
+      }
+    }
   ],
   "speakers": [
-    {"id": 1, "name": "Johnatan Rupire", "country" : 1, "organization" : "Wikimedia Perú"},
-    {"id": 2, "name": "Alfonso Torres", "country" : 1, "organization" : "OSM Perú"},
-    {"id": 3, "name": "Omar Vega Ramos", "country" : 1, "organization" : "OSM Perú"},
-    {"id": 4, "name": "Selene Yang", "country" : 2, "organization" : "Geochicas"},
-    {"id": 5, "name": "Céline Jacquin", "country" : 3, "organization" : "Geochicas"},
-    {"id": 6, "name": "Ronald Osorio", "country" : 1, "organization" : "Asoc. Kipullaxta"},
-    {"id": 7, "name": "Sandra Hernández", "country" : 3, "organization" : "UAEM"},
-    {"id": 8, "name": "Miriam Gonzales", "country" : 3, "organization" : "Telenav"},
-    {"id": 9, "name": "César Alfaro Mendivel", "country" : 1, "organization" : "Mapbox"},
-    {"id": 10, "name": "Eliane Joyo Meneses", "country" : 1, "organization" : "Mapbox"},
-    {"id": 11, "name": "Daniel Quisbert", "country" : 4, "organization" : ""},
-    {"id": 12, "name": "Julio Costa Zambelli", "country" : 5, "organization" : "OSM Chile"},
-    {"id": 13, "name": "Philipp Kandal", "country" : 6, "organization" : "Telenav"},
-    {"id": 14, "name": "Luis Vega Panta", "country" : 1, "organization" : "CAEG"},
-    {"id": 15, "name": "Juliana Hernández", "country" : 7, "organization" : "OSM Colombia"},
-    {"id": 16, "name": "Sandro Pimentel", "country" : 1, "organization" : "PLANANDES"},
-    {"id": 17, "name": "Marino Carhuapoma", "country" : 1, "organization" : "IdeasG"},
-    {"id": 18, "name": "Irina Avila", "country" : 1, "organization" : "Makerlab - PUCP"},
-    {"id": 19, "name": "Cinthya Yamamoto", "country" : 1, "organization" : "Peruanos de a Pie"},
-    {"id": 20, "name": "Anibal Paredes", "country" : 1, "organization" : "Unidad4x4 Ayuda"},
-    {"id": 21, "name": "Alfredo Zambrano", "country" : 1, "organization" : "CENEPRED"},
-    {"id": 22, "name": "César León", "country" : 1, "organization" : "SEGDI-PCM"},
-    {"id": 23, "name": "Freddy Chauca", "country" : 1, "organization" : "IGN"},
-    {"id": 24, "name": "David Albujar", "country" : 1, "organization" : "Municipalidad de Miraflores"},
-    {"id": 25, "name": "Koke Contreras", "country" : 1, "organization" : "Salvemos las Huacas"},
-    {"id": 26, "name": "Pedro Espinoza", "country" : 1, "organization" : "Complejo Arqueológico Mateo Salado"},
-    {"id": 27, "name": "Céline Jacquin", "country" : 3, "organization" : "Repubikla"},
-    {"id": 28, "name": "Giovanna Osorio", "country" : 1, "organization" : "Asoc. Kipullaxta"}
+    {
+      "id": 1,
+      "name": "Thierry Jean",
+      "country": 2,
+      "organization": "OpenStreetMap Brasil"
+    }
   ],
   "talks": [
-    {"id": 1, "title": "Taller de mapeo en laboratorios de informática - Equipo OSM LatAm", "speakers": []},
-    {"id": 2, "title": "Mapeo del campus con Fieldpapers y apps móviles: accesibilidad, botánico, mobiliario urbano, etc. - Equipo OSM LatAm", "speakers": []},
-    {"id": 3, "title": "Edición de OSM: cargando y editando los datos desde la PC y/o teléfono - Equipo OSM LatAm", "speakers": []},
-    {"id": 4, "title": "Visualización OSM: ¿cómo se ven mis aportes en el mapa? - Equipo OSM LatAm", "speakers": []},
-    {"id": 5, "title": "Eje temático: Mujeres & OSM", "speakers": []},
-    {"id": 6, "title": "Geochicas y OSM: Cerrar la brecha de género es una ruta que recién empieza a ser mapeada", "speakers": [4]},
-    {"id": 7, "title": "#CallesVioletas: Mapeo participativo del espacio hostil para las mujeres", "speakers": [5]},
-    {"id": 8, "title": "Mesa redonda: Mujeres y OpenStreetMap, \"cerrando la brecha de género\"", "speakers": [4, 5, 18]},
-    {"id": 9, "title": "Eje temático: Movilidad y Accesibilidad", "speakers": []},
-    {"id": 10, "title": "Estudios de accesibilidad a nivel ciudad para la planeación del transporte con OpenTripPlanner", "speakers": [5]},
-    {"id": 11, "title": "Experiencias de mapeo ciudadano para la evaluación de las condiciones de movilidad peatonal en México", "speakers": [5]},
-    {"id": 12, "title": "OSM y la accesibilidad reducida: Experiencia Asociación Kipullaxta", "speakers": [6]},
-    {"id": 13, "title": "Mesa redonda: Movilidad y accesibilidad, \"la ciudad es para todos\"", "speakers": [19, 27, 28]},
-    {"id": 14, "title": "Eje temático: Software y Hardware para uso cartográfico", "speakers": []},
-    {"id": 15, "title": "Mapeo colaborativo y fotomapping como herramientas de soporte a las actividades del Mapeatón para determinar la accesibilidad a los parques urbanos de Toluca y Metepec", "speakers": [7]},
-    {"id": 16, "title": "Desarrollo de cartografía participativa en apoyo a acontecimientos globales y dando soluciones a problemas locales: El caso de la Universidad Autónoma de México", "speakers": [7]},
-    {"id": 17, "title": "Mejorando datos de caminos y carreteras usando OpenStreetCam", "speakers": [8]},
-    {"id": 18, "title": "Eje temático: Software y Hardware para uso cartográfico", "speakers": []},
-    {"id": 19, "title": "Garantizando la calidad de los datos agregados a OpenStreetMap", "speakers": [9]},
-    {"id": 20, "title": "Mapbox y OpenStreetMap", "speakers": [10]},
-    {"id": 21, "title": "Instalación y configuración del mapa OSM para Offline en Linux", "speakers": [11]},
-    {"id": 22, "title": "Construyendo un GPS Datalogger de Bajo Costo", "speakers": [12]},
-    {"id": 23, "title": "Making maps with artificial intelligence (AI)", "speakers": [13]},
-    {"id": 24, "title": "Inventario Georreferenciado con OSM", "speakers": [14]},
-    {"id": 25, "title": "Eje temático: Educación, gestión de riesgos y ordenamiento territorial", "speakers": []},
-    {"id": 26, "title": "Maperos Campesinos - Herramientas Lúdicas para aprender, enseñar y fortalecer habilidades técnicas de cartografía en personas del campo", "speakers": [15]},
-    {"id": 27, "title": "Generación de Cartografía mediante RPAS en apoyo a la respuesta ante desastres: Nuestra experiencia con OSM", "speakers": [16]},
-    {"id": 28, "title": "Mesa redonda: Comunidad OpenStreetMap y gestión de riesgos, \"respuesta ciudadana colaborativa ante desastres\"", "speakers": [15, 16, 20, 21]},
-    {"id": 29, "title": "Mesa redonda: Datos abiertos y gobierno abierto, \"infraestructura de datos espaciales del Perú\"", "speakers": [2, 22, 23, 24]},
-    {"id": 30, "title": "Mapeo en los laboratorios de informática - Equipo OSM LatAm", "speakers": []},
-    {"id": 31, "title": "Mapeo con Fieldpapers y apps móviles dentro del campus u otro lugar cercano - Equipo OSM LatAm", "speakers": []},
-    {"id": 32, "title": "Edición de OSM: cargando y editando los datos desde la PC y/o teléfono - Equipo OSM LatAm", "speakers": [3]},
-    {"id": 33, "title": "Evaluación y presentación del resultado de la jornada - Equipo OSM LatAm", "speakers": []},
-    {"id": 34, "title": "Integración de OSM en el sistema de información catastral", "speakers": [17]},
-    {"id": 35, "title": "Conferencia magistral", "speakers": [13]},
-    {"id": 36, "title": "Mesa redonda: Cartografía social y educación, \"cultura libre, participación ciudadana y el cuidado del Qhapaq Ñan\"", "speakers": [1, 25, 26]}
+    {
+      "id": 1,
+      "title": "How to sell OSM",
+      "speakers": [1]
+    }
   ],
   "types": [
-    {"id": 1, "title": {"en": "Talk", "es": "Charla", "pt": "Palestra"}},
-    {"id": 2, "title": {"en": "Workshop", "es": "Taller", "pt": "Oficina"}},
-    {"id": 3, "title": {"en": "Round table", "es": "Mesa redonda", "pt": "Mesa redonda"}},
-    {"id": 4, "title": {"en": "Mapathon", "es": "Mapaton", "pt": "Mapaton"}}
+    {
+      "id": 1,
+      "title": {
+        "en": "Talk",
+        "es": "Charla",
+        "pt": "Palestra"
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Workshop",
+        "es": "Taller",
+        "pt": "Oficina"
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Plenary",
+        "es": "Plenaria",
+        "pt": "Plenário"
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "Mapathon",
+        "es": "Mapaton",
+        "pt": "Mapaton"
+      }
+    }
   ],
   "countries": [
-    {"id": 1, "name": "Perú", "code": "PE"},
-    {"id": 2, "name": "Argentina", "code": "AR"},
-    {"id": 3, "name": "México", "code": "MX"},
-    {"id": 4, "name": "Bolivia", "code": "BO"},
-    {"id": 5, "name": "Chile", "code": "CL"},
-    {"id": 6, "name": "Alemania", "code": "DE"},
-    {"id": 7, "name": "Colombia", "code": "CO"}
+    {
+      "id": 1,
+      "name": "Argentina",
+      "code": "AR"
+    },
+    {
+      "id": 2,
+      "name": "Brasil",
+      "code": "BR"
+    },
+    {
+      "id": 3,
+      "name": "México",
+      "code": "MX"
+    },
+    {
+      "id": 4,
+      "name": "Bolivia",
+      "code": "BO"
+    },
+    {
+      "id": 5,
+      "name": "Chile",
+      "code": "CL"
+    },
+    {
+      "id": 6,
+      "name": "Perú",
+      "code": "PE"
+    },
+    {
+      "id": 7,
+      "name": "Colombia",
+      "code": "CO"
+    }
   ]
 }
