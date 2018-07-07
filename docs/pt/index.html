@@ -206,7 +206,9 @@
           <div id="speakers">
             <p class="speaker" ng-repeat="speaker in talk.speakers" ng-init="country = get_country(speakers[speaker-1].country);">
               <span ng-if="$index != 0">&nbsp; - &nbsp;</span>
-              <img ng-src="/images/flags/{[{country.code}]}.png" alt="{[{country.code}]}" title="{[{country.name}]}" width="24"> {[{ speakers[speaker-1].name }]} <span ng-if="activity.type == 3">({[{ speakers[speaker-1].organization }]})</span>
+              <img ng-src="/images/flags/{[{country.code}]}.png" alt="{[{country.code}]}" title="{[{country.name}]}" width="24"> {[{ speakers[speaker-1].name }]} {[{ speakers[speaker-1].organization }]} 
+              <span ng-if="activity.type == 3"> 
+            </span>
             </p>
           </div>
           <p>
