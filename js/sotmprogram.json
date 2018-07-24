@@ -9,24 +9,6 @@
       },
       "activities": [
         {
-          "hour": "9:00",
-          "type": "interval",
-          "message": {
-            "en": "Registration of participants",
-            "es": "Registro de participantes",
-            "pt": "Registro de participantes"
-          }
-        },
-        {
-          "hour": "10:00",
-          "type": "interval",
-          "message": {
-            "en": "Opening",
-            "es": "Apertura",
-            "pt": "Abertura"
-          }
-        },
-        {
           "hour": "10:30",
           "type": 1,
           "talk": 1,
@@ -34,104 +16,32 @@
           "duration": "30min"
         },
         {
-          "hour": "11:00",
-          "type": "interval",
-          "message": {
-            "en": "Coffee break",
-            "es": "Café",
-            "pt": "Café"
-          }
+          "hour": "10:30",
+          "type": 1,
+          "talk": 2,
+          "location": 1,
+          "duration": "30min"
         },
         {
-          "hour": "13:00",
-          "type": "interval",
-          "message": {
-            "en": "Lunch",
-            "es": "Almuerzo",
-            "pt": "Almoço"
-          }
+          "hour": "10:30",
+          "type": 1,
+          "talk": 3,
+          "location": 1,
+          "duration": "30min"
         },
         {
-          "hour": "16:00",
-          "type": "interval",
-          "message": {
-            "en": "Coffee break",
-            "es": "Café",
-            "pt": "Café"
-          }
+          "hour": "10:30",
+          "type": 1,
+          "talk": 4,
+          "location": 1,
+          "duration": "30min"
         },
         {
-          "hour": "night",
-          "type": "interval",
-          "message": {
-            "en": "GeoBeers",
-            "es": "Geobirras",
-            "pt": "Geobirras"
-          }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "date": {
-        "en": "Tuesday - September 25",
-        "es": "Martes - 25 de Septiembre",
-        "pt": "Terça-feira - 25 de Setembro"
-      },
-      "activities": [
-        {
-          "hour": "9:00",
-          "type": "interval",
-          "message": {
-            "en": "Registration of participants",
-            "es": "Registro de participantes",
-            "pt": "Registro de participantes"
-          }
-        },
-        {
-          "hour": "11:00",
-          "type": "interval",
-          "message": {
-            "en": "Coffee break",
-            "es": "Café",
-            "pt": "Café"
-          }
-        },
-        {
-          "hour": "13:00",
-          "type": "interval",
-          "message": {
-            "en": "Lunch",
-            "es": "Almuerzo",
-            "pt": "Almoço"
-          }
-        },
-        {
-          "hour": "16:00",
-          "type": "interval",
-          "message": {
-            "en": "Coffee break",
-            "es": "Café",
-            "pt": "Café"
-          }
-        },
-        {
-          "hour": "night",
-          "type": "interval",
-          "message": {
-            "en": "Closure",
-            "es": "Cierre",
-            "pt": "Fechamento"
-          }
-        },
-        {
-          "hour": "night",
-          "type": "interval",
-          "message": {
-            "en": "Farewell geoBeers",
-            "es": "Geobirras de despedida",
-            "pt": "Geobirras de despedida"
-          }
+          "hour": "10:30",
+          "type": 1,
+          "talk": 5,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -159,7 +69,31 @@
       "id": 1,
       "name": "Thierry Jean",
       "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 2,
+      "name": "Marco Antonio Frías Butrón",
+      "country": 4,
       "organization": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "country": 7,
+      "organization": "OSM Colombia"
+    },
+    {
+      "id": 4,
+      "name": "",
+      "country": 1,
+      "organization": "ACIJ"
+    },
+    {
+      "id": 5,
+      "name": "Selene Yang",
+      "country": 8,
+      "organization": "Geochicas"
     }
   ],
   "talks": [
@@ -168,6 +102,30 @@
       "title": "How to sell OSM",
       "abstract": "Thierry has focused on Selling OSM project in Brazil developing Public Relation initiatives with Governments, Utility companies, ministries, etc… Thierry will show how a business minded professional can help OSM and will give ways for other OSM enthusiasts to do the same in their countries.",
       "speakers": [1]
+    },
+    {
+      "id": 2,
+      "title": "El mapa de OpenStreetMap (Mapnik) en offline sobre Linux y su aplicación en la educación",
+      "abstract": "ge0tic es un proyecto 100% implementado y desarrollado en OpenSource, utiliza el mapa de OSM (mapnik) como mapa base, mapas de interés educativo, todo sobre una plataforma Linux y pretendo llevarlo a todas las unidades educativas de Bolivia, para pueda ser una herramienta SIG web de apoyo educativo.",
+      "speakers": [2]
+    },
+    {
+      "id": 3,
+      "title": "Herramientas para coordinar equipos para el trabajo en Cartografía Comunitaria",
+      "abstract": "OSM Colombia ha dispuesto una serie herramientas libres para la comunidad de Latam para ejercicios de Cartografía, están asociadas a una metodología para enseñar a hacer mapas con herramientas de OSM, compartiremos la forma como hemos coordinado equipos de trabajo para realizar tareas de mapeo.",
+      "speakers": [3]
+    },
+    {
+      "id": 4,
+      "title": "Proyecto: Caminos de la Villa",
+      "abstract": "'Caminos de la Villa' es un portal que visibiliza las condiciones de vida en más de 20 barrios segregados de la Ciudad de Buenos Aires, aportando a sus pobladores una herramienta tecnológica para el diagnóstico comunitario de las prestaciones de servicios y de monitoreo y control de obras públicas.",
+      "speakers": [4]
+    },
+    {
+      "id": 5,
+      "title": "Geochicas y geofeminismos. Proyectos, resultados y desafíos",
+      "abstract": "A dos años de haber la fundación de Geochicas, queremos presentar un recorrido de nuestros proyectos, resultados más importantes, alianzas y desafíos como colectivo de mujeres mapeadoras.",
+      "speakers": [5]
     }
   ],
   "types": [
@@ -239,6 +197,11 @@
       "id": 7,
       "name": "Colombia",
       "code": "CO"
+    },
+    {
+      "id": 8,
+      "name": "Nicaragua",
+      "code": "NI"
     }
   ]
 }
