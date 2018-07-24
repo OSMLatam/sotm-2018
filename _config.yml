@@ -22,6 +22,9 @@ markdown: kramdown
 t:
   en:
     language_name: English
+    modal:
+      abstract: Abstract
+      close: Close
     menu:
       about:
         label: About
@@ -42,6 +45,9 @@ t:
         url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
   es:
     language_name: Español
+    modal:
+      abstract: Ver resumen
+      close: Cerrar
     menu:
       about:
         label: Sobre
@@ -62,6 +68,9 @@ t:
         url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2018
   pt:
     language_name: Português
+    modal:
+      abstract: Ver resumo
+      close: Fechar
     menu:
       about:
         label: Sobre

@@ -63,6 +63,14 @@ lang: en
       Preliminary program
     </h2>
   </div>
+  <div class="text-center pagination-centered" ng-app="App" ng-controller="sotm">
+    <div id="activities" ng-repeat="day in days" class="container-fluid">
+      <br>
+      {% include preprogram.html %}
+      <br>
+    </div>
+  </div>
+<!--
   <div ng-app="App" ng-controller="sotm">
     <div ng-repeat="day in days">
       <h3>{[{ day.date.en }]}</h3>
@@ -71,6 +79,7 @@ lang: en
       <br>
     </div>
   </div>
+-->
 </section>
 
 <section id="venue" class="container content-section text-center">
