@@ -42,6 +42,13 @@
           "talk": 5,
           "location": 1,
           "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 6,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -94,6 +101,12 @@
       "name": "Selene Yang",
       "country": 8,
       "organization": "Geochicas"
+    },
+    {
+      "id": 5,
+      "name": "Ariel Anthieni",
+      "country": 1,
+      "organization": "OSM Argentina"
     }
   ],
   "talks": [
@@ -126,6 +139,12 @@
       "title": "Geochicas y geofeminismos. Proyectos, resultados y desafíos",
       "abstract": "A dos años de haber la fundación de Geochicas, queremos presentar un recorrido de nuestros proyectos, resultados más importantes, alianzas y desafíos como colectivo de mujeres mapeadoras.",
       "speakers": [5]
+    },
+    {
+      "id": 6,
+      "title": "Integración de Catálogo de Objetos de Infraestructura de Datos Espaciales (IDE) con OSM",
+      "abstract": "La propuesta que se está trabajando es que a partir de una estructura ya consensuada como el catálogo de objetos de IDERA (IDE República Argentina) se generan los conjuntos de etiquetas para la identificación de los objetos, y así también retroalimentar el catálogo de objetos de la IDE. Como resultado de esto se está generando un conjunto de present para JOSM y la generación del catálogo de objetos de la IDE en un soporte compatible (en XML, según la ISO 19110) donde se puedan integrar un catálogo en Geonetwork con los conjuntos de etiquetas que identifican al objeto.",
+      "speakers": [6]
     }
   ],
   "types": [
