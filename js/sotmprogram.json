@@ -49,6 +49,13 @@
           "talk": 6,
           "location": 1,
           "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 7,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -80,19 +87,19 @@
     },
     {
       "id": 2,
-      "name": "Marco Antonio Frías Butrón",
+      "name": "Daniel Marcelo Quisbert Calle",
       "country": 4,
-      "organization": ""
+      "organization": "OSM Bolivia"
     },
     {
       "id": 3,
-      "name": "",
+      "name": "Fernando Castro",
       "country": 7,
       "organization": "OSM Colombia"
     },
     {
       "id": 4,
-      "name": "",
+      "name": "Martina Lewin Hirschhorn y Rosario Fassina",
       "country": 1,
       "organization": "ACIJ"
     },
@@ -103,8 +110,14 @@
       "organization": "Geochicas"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Ariel Anthieni",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 7,
+      "name": "Horacio Castellaro",
       "country": 1,
       "organization": "OSM Argentina"
     }
@@ -145,6 +158,12 @@
       "title": "Integración de Catálogo de Objetos de Infraestructura de Datos Espaciales (IDE) con OSM",
       "abstract": "La propuesta que se está trabajando es que a partir de una estructura ya consensuada como el catálogo de objetos de IDERA (IDE República Argentina) se generan los conjuntos de etiquetas para la identificación de los objetos, y así también retroalimentar el catálogo de objetos de la IDE. Como resultado de esto se está generando un conjunto de present para JOSM y la generación del catálogo de objetos de la IDE en un soporte compatible (en XML, según la ISO 19110) donde se puedan integrar un catálogo en Geonetwork con los conjuntos de etiquetas que identifican al objeto.",
       "speakers": [6]
+    },
+    {
+      "id": 7,
+      "title": "Geocodificación de domicilios con OSM",
+      "abstract": "Geocodificación de domicilios con OSM. Repaso de métodos de geocodificación. Cobertura de datos de base para la geocodificación en Argentina. Existencia de datos oficiales para incorporar a OSM. Evaluación de la calidad de la información geoespacial para la geocodificación.",
+      "speakers": [7]
     }
   ],
   "types": [
