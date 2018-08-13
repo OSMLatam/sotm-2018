@@ -112,6 +112,13 @@
           "talk": 15,
           "location": 1,
           "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 16,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -315,6 +322,12 @@
       "id": 15,
       "title": "Mapeamento de Favelas com uso do OpenStreetMap (OSM) no TETO Brasil",
       "abstract": "A fala visa apresentar os processos de mapeamento de favelas desenvolvidos pelo TETO (TECHO) Brasil. O foco estão nas contribuições e limitações que as aplicações do “universo” OSM podem dar a tais processos. Os pontos abordados contribuem em atividades de ONGs em área vulneráveis na América Latina.",
+      "speakers": [15]
+    },
+    {
+      "id": 16,
+      "title": "Mapeamento Colaborativo e Mapeamento de Referência Oficial: importando informação geográfica entre eles",
+      "abstract": "A fala visa explanar sobre as potencialidades e os desafios da importação de informações geográficas mutuamente entre o Mapeamento Colaborativo e o Mapeamento de Referência Oficial. Além disso, apresenta o desenvolvimento de ferramenta que busca a integração desses mapeamentos no contexto brasileiro",
       "speakers": [15]
     }
   ],
