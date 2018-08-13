@@ -116,6 +116,13 @@
         {
           "hour": "10:30",
           "type": 1,
+          "talk": 17,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
           "talk": 16,
           "location": 1,
           "duration": "30min"
@@ -231,6 +238,12 @@
       "name": "Everton Bortolini",
       "country": 2,
       "organization": "OSM Brasil"
+    },
+    {
+      "id": 16,
+      "name": "Federico Pértile",
+      "country": 1,
+      "organization": "OSM Argentina"
     }
   ],
   "talks": [
@@ -329,6 +342,12 @@
       "title": "Mapeamento Colaborativo e Mapeamento de Referência Oficial: importando informação geográfica entre eles",
       "abstract": "A fala visa explanar sobre as potencialidades e os desafios da importação de informações geográficas mutuamente entre o Mapeamento Colaborativo e o Mapeamento de Referência Oficial. Além disso, apresenta o desenvolvimento de ferramenta que busca a integração desses mapeamentos no contexto brasileiro",
       "speakers": [15]
+    },
+    {
+      "id": 17,
+      "title": "Creando un mapa impreso con distintas alternativas",
+      "abstract": "Por qué dejar a OSM solo en la web. En esta charla veremos pros y contras de distintas alternativas para elaborar un mapa impreso basado en la fuente más completa del mundo. Resultado: un mapa libre para colgar en la pared.",
+      "speakers": [16]
     }
   ],
   "types": [
