@@ -126,6 +126,27 @@
           "talk": 16,
           "location": 1,
           "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 18,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 19,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 20,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -244,6 +265,24 @@
       "name": "Federico Pértile",
       "country": 1,
       "organization": "OSM Argentina"
+    },
+    {
+      "id": 17,
+      "name": "Nixon Arley Aristizabal Niño",
+      "country": 7,
+      "organization": "Universidad de Antioquia"
+    },
+    {
+      "id": 18,
+      "name": "Martín Fernando Ortiz",
+      "country": 1,
+      "organization": "Cooperativa Geográfica Cambalache"
+    },
+    {
+      "id": 19,
+      "name": "José Mourglia",
+      "country": 1,
+      "organization": "OSM Argentina"
     }
   ],
   "talks": [
@@ -316,7 +355,7 @@
     {
       "id": 12,
       "title": "El Ecosistema OpenStreetMap",
-      "abstract": "OpenStreetMap no es sólo un mapa, es una base de datos. A partir de ese concepto se exploraremos los diversos servicios, aplicaciones, herramientas, usos y soluciones que surgieron de los datos de OSM, su comunidad y organizaciones relacionadas.",
+      "abstract": "OpenStreetMap no es sólo un mapa, es una base de datos. A partir de ese concepto exploraremos los diversos servicios, aplicaciones, herramientas, usos y soluciones que surgieron de los datos de OSM, su comunidad y organizaciones relacionadas.",
       "speakers": [12]
     },
     {
@@ -348,6 +387,24 @@
       "title": "Creando un mapa impreso con distintas alternativas",
       "abstract": "Por qué dejar a OSM solo en la web. En esta charla veremos pros y contras de distintas alternativas para elaborar un mapa impreso basado en la fuente más completa del mundo. Resultado: un mapa libre para colgar en la pared.",
       "speakers": [16]
+    },
+    {
+      "id": 18,
+      "title": "Cartografía humanitaria de los humedales y comunidades de pescadores costeras para la resiliencia ante el cambio y la variabilidad climática (Golfo de Urabá, Sur del Caribe, Colombia)",
+      "abstract": "Resultados del proyecto desarrollado por la Universidad de Antioquia. Aborda el trabajo de mapeo de los asentamientos de comunidades pesqueras insertados en este territorio, y trabajo de campo participativo, integrando la percepción de los servicios brindados por el ecosistema y cambio climático.",
+      "speakers": [17]
+    },
+    {
+      "id": 19,
+      "title": "Construcción de Isocronas para análisis de accesibilidad",
+      "abstract": "Las isocronas son polígonos que nos permiten determinar cuanta distancia se puede recorrer en una cantidad de tiempo definida en un modo de transporte también definido - ya sea en auto, bus, a pie. El objetivo de este trabajo es analizar diferentes métodos y herramientas para construir isócronas.",
+      "speakers": [18]
+    },
+    {
+      "id": 20,
+      "title": "Obtener y Visualizar Datos de OSM con R",
+      "abstract": "En esta charla, vamos a compartir paquetes del lenguaje R para poder obtener datos brutos de OSM, a través de la API Overpass. La idea es que una vez que tengamos los datos en el entorno R y/o RStudio, podemos usarlos con la potencia de dicho lenguaje.",
+      "speakers": [19]
     }
   ],
   "types": [
