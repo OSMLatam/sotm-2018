@@ -14,7 +14,7 @@ lang: es
           <h2>24 y 25 de Septiembre</h2>
           <div class="about-button">
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a class="btn btn-default" href="#about" role="button">Acerca del evento</a>
+              <a class="btn btn-default" href="https://sotmlatam2018.eventbrite.com.ar" target="_blank" role="button">Registrate</a>
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
               <a href="#about" class="btn btn-circle page-scroll">
@@ -23,7 +23,7 @@ lang: es
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
               <a target="_blank" class="btn btn-default"
-              href="https://www.papercall.io/events/1195" role="button">
+              href="https://www.papercall.io/sotm-latam-2018" role="button">
                 Envia tu presentación
               </a>
             </span>
@@ -59,28 +59,26 @@ lang: es
   </div>
 </section>
 
-<!--
 <section id="program" class="container content-section text-center">
   <div class="row text-center">
     <h2>
-      Programación
+      Programación (preliminar)
     </h2>
   </div>
-  <div ng-app="App" ng-controller="sotm">
-    <div ng-repeat="day in days">
-      <h3>{[{ day.date.es }]}</h3>
+
+  <div class="text-center pagination-centered" ng-app="App" ng-controller="sotm">
+    <div id="activities" ng-repeat="day in days" class="container-fluid">
       <br>
-      {% include program.html %}
+      {% include preprogram.html %}
       <br>
     </div>
   </div>
 </section>
--->
 
 <section id="venue" class="container content-section text-center">
   <div class="row text-center">
     <h2>
-      Local
+      Lugar
     </h2>
   </div>
 
@@ -119,12 +117,12 @@ lang: es
   <div class="row">
 
     <div class="col-sm-4 col-md-3 col-md-offset-1">
-      <a href="https://www.papercall.io/events/1195">
+      <a href="https://www.papercall.io/sotm-latam-2018">
         <div class="thumbnail">
           <span class="glyphicon glyphicon-check"></span>
           <div class="caption text-center">
             <h3>Registrese</h3>
-            <p>Envíe su propuesta de charla hasta el 25 de Septiembre</p>
+            <p>Envíe su propuesta de charla hasta el 7 de Septiembre</p>
           </div>
         </div>
       </a>

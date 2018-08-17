@@ -9,26 +9,26 @@
   <title>State of the Map LATAM 2018</title>
   <meta name="description" content="The Latin American OpenStreetMap Conference">
   <meta name="author" content="OpenStreetMap Latinoamérica">
-  <meta property="og:image" content="http://state.osmlatam.org/images/Logo_SOTMLatam2018.jpg">
+  <meta property="og:image" content="/images/Logo_SOTMLatam2018.jpg">
   <meta property="og:site_name" content="State of the Map Latam 2018">
   <meta property="og:type" content="website">
   <meta property="og:title" content="State of the Map LATAM 2018">
   <meta property="og:description"
   content="La Conferencia Latinoamericana de OpenStreetMap. 24 Sep - 25 Sep, Buenos Aires, Argentina.">
-  <meta property="og:url" content="http://state.osmlatam.org">
+  <meta property="og:url" content="">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@osmlatam">
-  <meta property="twitter:image" content="http://state.osmlatam.org/images/Logo_SOTMLatam2018.jpg">
+  <meta property="twitter:image" content="/images/Logo_SOTMLatam2018.jpg">
   <meta name="twitter:title" content="State of the Map LATAM 2018">
   <meta name="twitter:description"
   content="La conferencia latinoamericana de OpenStreetMap. 24 Sep - 25 Sep, Buenos Aires, Argentina.">
-  <meta name="twitter:url" content="http://state.osmlatam.org">
+  <meta name="twitter:url" content="">
 
 <!-- Translations -->
-<link hreflang="en" href="http://state.osmlatam.org/en/" rel="alternate">
-<link hreflang="es" href="http://state.osmlatam.org" rel="alternate">
-<link hreflang="pt-br" href="http://state.osmlatam.org/pt/" rel="alternate">
+<link hreflang="en" href="/en/" rel="alternate">
+<link hreflang="es" href="" rel="alternate">
+<link hreflang="pt-br" href="/pt/" rel="alternate">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -43,6 +43,12 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/3.3.7/css/grayscale.min.css">
+<!--
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/3.3.7/css/grayscale.min.css">
+-->
+
   <!-- Leaflet -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
@@ -99,7 +105,7 @@
           </li>
         
           <li>
-            <a href="https://www.papercall.io/events/1195">Envia sua palestra</a>
+            <a href="/pt/#program">Programa</a>
           </li>
         
           <li>
@@ -107,7 +113,11 @@
           </li>
         
           <li>
-            <a href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018">Wiki</a>
+            <a href="https://sotmlatam2018.eventbrite.com.ar">Inscreva-se</a>
+          </li>
+        
+          <li>
+            <a href="https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018">Wiki</a>
           </li>
         
       </ul>
@@ -126,7 +136,7 @@
           <h2>24 e 25 de setembro</h2>
           <div class="about-button">
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a class="btn btn-default" href="#about" role="button">Sobre o evento</a>
+              <a class="btn btn-default" href="https://sotmlatam2018.eventbrite.com.ar" target="_blank" role="button">Inscreva-se</a>
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
               <a href="#about" class="btn btn-circle page-scroll">
@@ -135,7 +145,7 @@
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
               <a target="_blank" class="btn btn-default"
-              href="https://www.papercall.io/events/1195" role="button">
+              href="https://www.papercall.io/sotm-latam-2018" role="button">
                 Envie sua palestra
               </a>
             </span>
@@ -168,13 +178,59 @@
   </div>
 </section>
 
-<!--
 <section id="program" class="container content-section text-center">
   <div class="row text-center">
     <h2>
-      Programação
+      Programação preliminar
     </h2>
   </div>
+  <div class="text-center pagination-centered" ng-app="App" ng-controller="sotm">
+    <div id="activities" ng-repeat="day in days" class="container-fluid">
+      <br>
+      <div class="thumbnail col-sm-4 col-md-3 col-md-offset-1 col-lg-3 center-block" ng-repeat="activity in day.activities" style="margin: 1.4rem">
+  <div class="caption text-center" ng-if="activity.type != 'interval'" ng-init="talk = get_talk(activity.talk);">
+    <h5 class="talk-title">
+      {[{ talks[activity.talk-1].title }]}
+    </h5>
+    <div id="speakers">
+      <h6 class="speaker" ng-repeat="speaker in talk.speakers" ng-init="country = get_country(speakers[speaker-1].country);">
+        <span ng-if="$index != 0">&nbsp; - &nbsp;</span>
+        <img ng-src="/images/flags/{[{country.code}]}.png" alt="{[{country.code}]}" title="{[{country.name}]}" width="24"> {[{ speakers[speaker-1].name }]} - {[{ speakers[speaker-1].organization }]} 
+        <span ng-if="activity.type == 3"> 
+      </span>
+      </h6>
+    </div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{[{ talks[activity.talk-1].id }]}">
+  Ver resumen
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="{[{ talks[activity.talk-1].id }]}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{[{ talks[activity.talk-1].title }]}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {[{ talks[activity.talk-1].abstract }]}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+      <br>
+    </div>
+  </div>
+<!--  
   <div ng-app="App" ng-controller="sotm">
     <div ng-repeat="day in days">
       <h3>{[{ day.date.pt }]}</h3>
@@ -197,15 +253,20 @@
             {[{ activity.duration }]}
           </p>
           <p class="talk-title">
+            {[{ types[activity.type-1].title.pt }]} - 
             {[{ talks[activity.talk-1].title }]}
-            {[{ types[activity.type-1].title.pt }]}
           </p>
           <div id="speakers">
             <p class="speaker" ng-repeat="speaker in talk.speakers" ng-init="country = get_country(speakers[speaker-1].country);">
               <span ng-if="$index != 0">&nbsp; - &nbsp;</span>
-              <img ng-src="/images/flags/{[{country.code}]}.png" alt="{[{country.code}]}" title="{[{country.name}]}" width="24"> {[{ speakers[speaker-1].name }]} <span ng-if="activity.type == 3">({[{ speakers[speaker-1].organization }]})</span>
+              <img ng-src="/images/flags/{[{country.code}]}.png" alt="{[{country.code}]}" title="{[{country.name}]}" width="24"> {[{ speakers[speaker-1].name }]} {[{ speakers[speaker-1].organization }]} 
+              <span ng-if="activity.type == 3"> 
+            </span>
             </p>
           </div>
+          <p>
+            {[{ talks[activity.talk-1].abstract }]}
+          </p>
         </div>
       </div>
     </div>
@@ -215,8 +276,8 @@
       <br>
     </div>
   </div>
-</section>
 -->
+</section>
 
 <section id="venue" class="container content-section text-center">
   <div class="row text-center">
@@ -230,8 +291,8 @@
 <script>
 
   var map = L.map('map', {scrollWheelZoom: false}).setView([-34.6564, -58.3787], 16);
-  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
   var library = L.marker([ -34.6550642, -58.3800079])
@@ -279,7 +340,7 @@
           <span class="glyphicon glyphicon-check"></span>
           <div class="caption text-center">
             <h3>Registre-se</h3>
-            <p>Envie sua conversa proposta até o dia 25 de Setembro</p>
+            <p>Envie sua conversa proposta até o dia 7 de Setembro</p>
           </div>
         </div>
       </a>
