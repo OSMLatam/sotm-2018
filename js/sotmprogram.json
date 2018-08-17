@@ -147,6 +147,13 @@
           "talk": 20,
           "location": 1,
           "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 21,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -283,6 +290,12 @@
       "name": "José Mourglia",
       "country": 1,
       "organization": "OSM Argentina"
+    },
+    {
+      "id": 20,
+      "name": "Jaime Gutiérrez Alfaro",
+      "country": 11,
+      "organization": "Instituto Tecnológico de Costa Rica"
     }
   ],
   "talks": [
@@ -405,6 +418,12 @@
       "title": "Obtener y Visualizar Datos de OSM con R",
       "abstract": "En esta charla, vamos a compartir paquetes del lenguaje R para poder obtener datos brutos de OSM, a través de la API Overpass. La idea es que una vez que tengamos los datos en el entorno R y/o RStudio, podemos usarlos con la potencia de dicho lenguaje.",
       "speakers": [19]
+    },
+    {
+      "id": 21,
+      "title": "Compartiendo experiencias de incorporar estudiantes universitarios en proyectos y actividades que utilizan OSM",
+      "abstract": "El LabExp es un espacio de extensión e investigación donde incorporamos estudiantes universitarios en actividades y proyectos que utilizan OSM y que buscan hacer aportes a distintas comunidades; con lo cual fortalecemos el proceso formativo de los estudiantes más allá de lo técnico.",
+      "speakers": [20]
     }
   ],
   "types": [
@@ -491,6 +510,11 @@
       "id": 10,
       "name": "Haití",
       "code": "HT"
+    },
+    {
+      "id": 11,
+      "name": "Costa Rica",
+      "code": "CR"
     }
   ]
 }
