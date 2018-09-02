@@ -2,153 +2,519 @@
   "days": [
     {
       "id": 1,
-      "date": {"en": "Wednesday - November 29", "es": "Miércoles - 29 de Noviembre", "pt": "Quarta-feira - 29 de Novembro"},
+      "date": {
+        "en": "Monday - September 24",
+        "es": "Lunes - 24 de Septiembre",
+        "pt": "Segunda-feira - 24 de Setembro"
+      },
       "activities": [
-	{"hour": "13:30", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "14:00", "type": "interval", "message": {"en": "Opening", "es": "Apertura", "pt": "Abertura"}},
-	{"hour": "14:10", "type": 2, "talk": 1, "location": 2, "duration": "50min"},
-	{"hour": "15:00", "type": 2, "talk": 2, "location": 2, "duration": "2h 00min"},
-	{"hour": "17:00", "type": 2, "talk": 3, "location": 2, "duration": "1h"},
-	{"hour": "18:00", "type": 2, "talk": 4, "location": 2, "duration": "30min"}
-      ]
-    },
-    {
-      "id": 2,
-      "date": {"en": "Thursday - November 30", "es": "Jueves - 30 de Noviembre", "pt": "Quinta-feira - 30 de Novembro"},
-      "activities": [
-	{"hour": "10:00", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "10:30", "type": "interval", "message": {"en": "Opening", "es": "Apertura", "pt": "Abertura"}},
-	{"hour": "10:40", "type": 2, "talk": 7, "location": 2, "duration": "1h"},
-	{"hour": "11:40", "type": 1, "talk": 6, "location": 1, "duration": "30min"},
-	{"hour": "12:10", "type": 3, "talk": 8, "location": 1, "duration": "1h"},
-	{"hour": "13:10", "type": "interval", "message": {"en": "Lunch", "es": "Almuerzo", "pt": "Almoço"}},
-	{"hour": "14:00", "type": 1, "talk": 35, "location": 1, "duration": "30min"},
-	{"hour": "14:30", "type": 1, "talk": 10, "location": 1, "duration": "30min"},
-	{"hour": "15:00", "type": 1, "talk": 11, "location": 1, "duration": "30min"},
-	{"hour": "15:30", "type": 1, "talk": 12, "location": 1, "duration": "30min"},
-	{"hour": "16:00", "type": 3, "talk": 13, "location": 1, "duration": "55min"},
-	{"hour": "17:00", "type": 1, "talk": 16, "location": 1, "duration": "30min"},
-	{"hour": "17:30", "type": 1, "talk": 15, "location": 1, "duration": "30min"},
-	{"hour": "18:00", "type": 1, "talk": 17, "location": 1, "duration": "30min"}
-      ]
-    },
-    {
-      "id": 3,
-      "date": {"en": "Friday - December 1", "es": "Viernes - 1 de Diciembre", "pt": "Sexta-feira - 1 de Dezembro"},
-      "activities": [
-	{"hour": "11:00", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "11:30", "type": 1, "talk": 19, "location": 1, "duration": "30min"},
-	{"hour": "12:00", "type": 1, "talk": 20, "location": 1, "duration": "30min"},
-	{"hour": "12:30", "type": 1, "talk": 22, "location": 1, "duration": "30min"},
-	{"hour": "13:00", "type": "interval", "message": {"en": "Lunch", "es": "Almuerzo", "pt": "Almoço"}},
-	{"hour": "14:00", "type": 2, "talk": 21, "location": 2, "duration": "1h"},
-	{"hour": "15:00", "type": 1, "talk": 24, "location": 1, "duration": "30min"},
-	{"hour": "15:30", "type": 1, "talk": 23, "location": 1, "duration": "30min"},
-	{"hour": "16:00", "type": 1, "talk": 34, "location": 1, "duration": "30min"},
-	{"hour": "16:30", "type": 1, "talk": 26, "location": 1, "duration": "30min"},
-	{"hour": "17:00", "type": 1, "talk": 27, "location": 1, "duration": "30min"},
-	{"hour": "17:30", "type": 3, "talk": 28, "location": 1, "duration": "1h"},
-	{"hour": "18:30", "type": 3, "talk": 29, "location": 1, "duration": "1h"},
-	{"hour": "19:30", "type": 3, "talk": 36, "location": 1, "duration": "1h"}
-      ]
-    },
-    {
-      "id": 4,
-      "date": {"en": "Saturday - December 2", "es": "Sabado - 2 de Diciembre", "pt": "Sábado - 2 de Dezembro"},
-      "activities": [
-	{"hour": "13:30", "type": "interval", "message": {"en": "Registration of participants", "es": "Registro de participantes", "pt": "Registro de participantes"}},
-	{"hour": "14:00", "type": "interval", "message": {"en": "Opening", "es": "Apertura", "pt": "Abertura"}},
-	{"hour": "14:10", "type": 2, "talk": 32, "location": 2, "duration": "1h"},
-	{"hour": "17:00", "type": 2, "talk": 33, "location": 2, "duration": "30min"},
-	{"hour": "17:30", "type": "interval", "message": {"en": "Closing", "es": "Clausura", "pt": "Encerramento"}}
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 1,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 2,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 3,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 4,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 5,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 6,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 7,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 8,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 9,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 10,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 11,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 12,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 13,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 14,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 15,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 17,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 16,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 18,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 19,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 20,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 21,
+          "location": 1,
+          "duration": "30min"
+        }
       ]
     }
   ],
   "locations": [
-    {"id": 1, "name": {"en": "Auditorium", "es": "Auditorio", "pt": "Auditório"}},
-    {"id": 2, "name": {"en": "Laboratory", "es": "Laboratorio", "pt": "Laboratório"}}
+    {
+      "id": 1,
+      "name": {
+        "en": "Room 1",
+        "es": "Sala 1",
+        "pt": "Sala 1"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Room 2",
+        "es": "Sala 2",
+        "pt": "Sala 2"
+      }
+    }
   ],
   "speakers": [
-    {"id": 1, "name": "Johnatan Rupire", "country" : 1, "organization" : "Wikimedia Perú"},
-    {"id": 2, "name": "Alfonso Torres", "country" : 1, "organization" : "OSM Perú"},
-    {"id": 3, "name": "Omar Vega Ramos", "country" : 1, "organization" : "OSM Perú"},
-    {"id": 4, "name": "Selene Yang", "country" : 2, "organization" : "Geochicas"},
-    {"id": 5, "name": "Céline Jacquin", "country" : 3, "organization" : "Geochicas"},
-    {"id": 6, "name": "Ronald Osorio", "country" : 1, "organization" : "Asoc. Kipullaxta"},
-    {"id": 7, "name": "Sandra Hernández", "country" : 3, "organization" : "UAEM"},
-    {"id": 8, "name": "Miriam Gonzales", "country" : 3, "organization" : "Telenav"},
-    {"id": 9, "name": "César Alfaro Mendivel", "country" : 1, "organization" : "Mapbox"},
-    {"id": 10, "name": "Eliane Joyo Meneses", "country" : 1, "organization" : "Mapbox"},
-    {"id": 11, "name": "Daniel Quisbert", "country" : 4, "organization" : ""},
-    {"id": 12, "name": "Julio Costa Zambelli", "country" : 5, "organization" : "OSM Chile"},
-    {"id": 13, "name": "Philipp Kandal", "country" : 6, "organization" : "Telenav"},
-    {"id": 14, "name": "Luis Vega Panta", "country" : 1, "organization" : "CAEG"},
-    {"id": 15, "name": "Juliana Hernández", "country" : 7, "organization" : "OSM Colombia"},
-    {"id": 16, "name": "Sandro Pimentel", "country" : 1, "organization" : "PLANANDES"},
-    {"id": 17, "name": "Marino Carhuapoma", "country" : 1, "organization" : "IdeasG"},
-    {"id": 18, "name": "Irina Avila", "country" : 1, "organization" : "Makerlab - PUCP"},
-    {"id": 19, "name": "Cinthya Yamamoto", "country" : 1, "organization" : "Peruanos de a Pie"},
-    {"id": 20, "name": "Anibal Paredes", "country" : 1, "organization" : "Unidad4x4 Ayuda"},
-    {"id": 21, "name": "Alfredo Zambrano", "country" : 1, "organization" : "CENEPRED"},
-    {"id": 22, "name": "César León", "country" : 1, "organization" : "SEGDI-PCM"},
-    {"id": 23, "name": "Freddy Chauca", "country" : 1, "organization" : "IGN"},
-    {"id": 24, "name": "David Albujar", "country" : 1, "organization" : "Municipalidad de Miraflores"},
-    {"id": 25, "name": "Koke Contreras", "country" : 1, "organization" : "Salvemos las Huacas"},
-    {"id": 26, "name": "Pedro Espinoza", "country" : 1, "organization" : "Complejo Arqueológico Mateo Salado"},
-    {"id": 27, "name": "Céline Jacquin", "country" : 3, "organization" : "Repubikla"},
-    {"id": 28, "name": "Giovanna Osorio", "country" : 1, "organization" : "Asoc. Kipullaxta"}
+    {
+      "id": 1,
+      "name": "Thierry Jean",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 2,
+      "name": "Daniel Marcelo Quisbert Calle",
+      "country": 4,
+      "organization": "OSM Bolivia"
+    },
+    {
+      "id": 3,
+      "name": "Fernando Castro",
+      "country": 7,
+      "organization": "OSM Colombia"
+    },
+    {
+      "id": 4,
+      "name": "Martina Lewin Hirschhorn y Rosario Fassina",
+      "country": 1,
+      "organization": "ACIJ"
+    },
+    {
+      "id": 5,
+      "name": "Selene Yang",
+      "country": 8,
+      "organization": "Geochicas"
+    },
+    {
+      "id": 6,
+      "name": "Ariel Anthieni",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 7,
+      "name": "Horacio Castellaro",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 8,
+      "name": "Alban Vivert",
+      "country": 9,
+      "organization": ""
+    },
+    {
+      "id": 9,
+      "name": "Helmut Kemper",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 10,
+      "name": "Ruben Lopez Mendoza",
+      "country": 6,
+      "organization": "OSM Perú"
+    },
+    {
+      "id": 11,
+      "name": "Nicolas Perez",
+      "country": 1,
+      "organization": "Gobierno de la Ciudad de Buenos Aires"
+    },
+    {
+      "id": 12,
+      "name": "Gonzalo Gabriel Perez",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 13,
+      "name": "Manuel Retamozo",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 14,
+      "name": "John Carlo Sainvil",
+      "country": 10,
+      "organization": "Humanitarian OpenStreetMap Team"
+    },
+    {
+      "id": 15,
+      "name": "Everton Bortolini",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 16,
+      "name": "Federico Pértile",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 17,
+      "name": "Nixon Arley Aristizabal Niño",
+      "country": 7,
+      "organization": "Universidad de Antioquia"
+    },
+    {
+      "id": 18,
+      "name": "Martín Fernando Ortiz",
+      "country": 1,
+      "organization": "Cooperativa Geográfica Cambalache"
+    },
+    {
+      "id": 19,
+      "name": "José Mourglia",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 20,
+      "name": "Jaime Gutiérrez Alfaro",
+      "country": 11,
+      "organization": "Instituto Tecnológico de Costa Rica"
+    }
   ],
   "talks": [
-    {"id": 1, "title": "Taller de mapeo en laboratorios de informática - Equipo OSM LatAm", "speakers": []},
-    {"id": 2, "title": "Mapeo del campus con Fieldpapers y apps móviles: accesibilidad, botánico, mobiliario urbano, etc. - Equipo OSM LatAm", "speakers": []},
-    {"id": 3, "title": "Edición de OSM: cargando y editando los datos desde la PC y/o teléfono - Equipo OSM LatAm", "speakers": []},
-    {"id": 4, "title": "Visualización OSM: ¿cómo se ven mis aportes en el mapa? - Equipo OSM LatAm", "speakers": []},
-    {"id": 5, "title": "Eje temático: Mujeres & OSM", "speakers": []},
-    {"id": 6, "title": "Geochicas y OSM: Cerrar la brecha de género es una ruta que recién empieza a ser mapeada", "speakers": [4]},
-    {"id": 7, "title": "#CallesVioletas: Mapeo participativo del espacio hostil para las mujeres", "speakers": [5]},
-    {"id": 8, "title": "Mesa redonda: Mujeres y OpenStreetMap, \"cerrando la brecha de género\"", "speakers": [4, 5, 18]},
-    {"id": 9, "title": "Eje temático: Movilidad y Accesibilidad", "speakers": []},
-    {"id": 10, "title": "Estudios de accesibilidad a nivel ciudad para la planeación del transporte con OpenTripPlanner", "speakers": [5]},
-    {"id": 11, "title": "Experiencias de mapeo ciudadano para la evaluación de las condiciones de movilidad peatonal en México", "speakers": [5]},
-    {"id": 12, "title": "OSM y la accesibilidad reducida: Experiencia Asociación Kipullaxta", "speakers": [6]},
-    {"id": 13, "title": "Mesa redonda: Movilidad y accesibilidad, \"la ciudad es para todos\"", "speakers": [19, 27, 28]},
-    {"id": 14, "title": "Eje temático: Software y Hardware para uso cartográfico", "speakers": []},
-    {"id": 15, "title": "Mapeo colaborativo y fotomapping como herramientas de soporte a las actividades del Mapeatón para determinar la accesibilidad a los parques urbanos de Toluca y Metepec", "speakers": [7]},
-    {"id": 16, "title": "Desarrollo de cartografía participativa en apoyo a acontecimientos globales y dando soluciones a problemas locales: El caso de la Universidad Autónoma de México", "speakers": [7]},
-    {"id": 17, "title": "Mejorando datos de caminos y carreteras usando OpenStreetCam", "speakers": [8]},
-    {"id": 18, "title": "Eje temático: Software y Hardware para uso cartográfico", "speakers": []},
-    {"id": 19, "title": "Garantizando la calidad de los datos agregados a OpenStreetMap", "speakers": [9]},
-    {"id": 20, "title": "Mapbox y OpenStreetMap", "speakers": [10]},
-    {"id": 21, "title": "Instalación y configuración del mapa OSM para Offline en Linux", "speakers": [11]},
-    {"id": 22, "title": "Construyendo un GPS Datalogger de Bajo Costo", "speakers": [12]},
-    {"id": 23, "title": "Making maps with artificial intelligence (AI)", "speakers": [13]},
-    {"id": 24, "title": "Inventario Georreferenciado con OSM", "speakers": [14]},
-    {"id": 25, "title": "Eje temático: Educación, gestión de riesgos y ordenamiento territorial", "speakers": []},
-    {"id": 26, "title": "Maperos Campesinos - Herramientas Lúdicas para aprender, enseñar y fortalecer habilidades técnicas de cartografía en personas del campo", "speakers": [15]},
-    {"id": 27, "title": "Generación de Cartografía mediante RPAS en apoyo a la respuesta ante desastres: Nuestra experiencia con OSM", "speakers": [16]},
-    {"id": 28, "title": "Mesa redonda: Comunidad OpenStreetMap y gestión de riesgos, \"respuesta ciudadana colaborativa ante desastres\"", "speakers": [15, 16, 20, 21]},
-    {"id": 29, "title": "Mesa redonda: Datos abiertos y gobierno abierto, \"infraestructura de datos espaciales del Perú\"", "speakers": [2, 22, 23, 24]},
-    {"id": 30, "title": "Mapeo en los laboratorios de informática - Equipo OSM LatAm", "speakers": []},
-    {"id": 31, "title": "Mapeo con Fieldpapers y apps móviles dentro del campus u otro lugar cercano - Equipo OSM LatAm", "speakers": []},
-    {"id": 32, "title": "Edición de OSM: cargando y editando los datos desde la PC y/o teléfono - Equipo OSM LatAm", "speakers": [3]},
-    {"id": 33, "title": "Evaluación y presentación del resultado de la jornada - Equipo OSM LatAm", "speakers": []},
-    {"id": 34, "title": "Integración de OSM en el sistema de información catastral", "speakers": [17]},
-    {"id": 35, "title": "Conferencia magistral", "speakers": [13]},
-    {"id": 36, "title": "Mesa redonda: Cartografía social y educación, \"cultura libre, participación ciudadana y el cuidado del Qhapaq Ñan\"", "speakers": [1, 25, 26]}
+    {
+      "id": 1,
+      "title": "How to sell OSM",
+      "abstract": "Thierry has focused on Selling OSM project in Brazil developing Public Relation initiatives with Governments, Utility companies, ministries, etc… Thierry will show how a business minded professional can help OSM and will give ways for other OSM enthusiasts to do the same in their countries.",
+      "speakers": [1]
+    },
+    {
+      "id": 2,
+      "title": "El mapa de OpenStreetMap (Mapnik) en offline sobre Linux y su aplicación en la educación",
+      "abstract": "ge0tic es un proyecto 100% implementado y desarrollado en OpenSource, utiliza el mapa de OSM (mapnik) como mapa base, mapas de interés educativo, todo sobre una plataforma Linux y pretendo llevarlo a todas las unidades educativas de Bolivia, para pueda ser una herramienta SIG web de apoyo educativo.",
+      "speakers": [2]
+    },
+    {
+      "id": 3,
+      "title": "Herramientas para coordinar equipos para el trabajo en Cartografía Comunitaria",
+      "abstract": "OSM Colombia ha dispuesto una serie herramientas libres para la comunidad de Latam para ejercicios de Cartografía, están asociadas a una metodología para enseñar a hacer mapas con herramientas de OSM, compartiremos la forma como hemos coordinado equipos de trabajo para realizar tareas de mapeo.",
+      "speakers": [3]
+    },
+    {
+      "id": 4,
+      "title": "Proyecto: Caminos de la Villa",
+      "abstract": "'Caminos de la Villa' es un portal que visibiliza las condiciones de vida en más de 20 barrios segregados de la Ciudad de Buenos Aires, aportando a sus pobladores una herramienta tecnológica para el diagnóstico comunitario de las prestaciones de servicios y de monitoreo y control de obras públicas.",
+      "speakers": [4]
+    },
+    {
+      "id": 5,
+      "title": "Geochicas y geofeminismos. Proyectos, resultados y desafíos",
+      "abstract": "A dos años de haber la fundación de Geochicas, queremos presentar un recorrido de nuestros proyectos, resultados más importantes, alianzas y desafíos como colectivo de mujeres mapeadoras.",
+      "speakers": [5]
+    },
+    {
+      "id": 6,
+      "title": "Integración de Catálogo de Objetos de Infraestructura de Datos Espaciales (IDE) con OSM",
+      "abstract": "La propuesta que se está trabajando es que a partir de una estructura ya consensuada como el catálogo de objetos de IDERA (IDE República Argentina) se generan los conjuntos de etiquetas para la identificación de los objetos, y así también retroalimentar el catálogo de objetos de la IDE. Como resultado de esto se está generando un conjunto de present para JOSM y la generación del catálogo de objetos de la IDE en un soporte compatible (en XML, según la ISO 19110) donde se puedan integrar un catálogo en Geonetwork con los conjuntos de etiquetas que identifican al objeto.",
+      "speakers": [6]
+    },
+    {
+      "id": 7,
+      "title": "Geocodificación de domicilios con OSM",
+      "abstract": "Geocodificación de domicilios con OSM. Repaso de métodos de geocodificación. Cobertura de datos de base para la geocodificación en Argentina. Existencia de datos oficiales para incorporar a OSM. Evaluación de la calidad de la información geoespacial para la geocodificación.",
+      "speakers": [7]
+    },
+    {
+      "id": 8,
+      "title": "Nomad Maps: Itinerancia cartográfica andina... a bicicleta",
+      "abstract": "Nomad Maps (proyecto voluntario de CartONG) es una itinerancia cartográfica de 5000 kms a bicicleta atravesando Colombia, Ecuador y Perú entre mayo y septiembre 2018. Se les presentará los resultados de la expedición, los proyectos emblemáticos de OSM encontrados y perspectivas para el futuro!",
+      "speakers": [8]
+    },
+    {
+      "id": 9,
+      "title": "Projeto gOsm",
+      "abstract": "Um servidor de mapas de código aberto feito para que qualquer pessoa possa ter seu próprio servidor.",
+      "speakers": [9]
+    },
+    {
+      "id": 10,
+      "title": "Mapeo de redes eléctricas con ayuda de Machine Learning",
+      "abstract": "Aproximadamente 1,1 billones de personas en todo el mundo carecen de acceso a la electricidad, mientras que en Latinoamérica alrededor 30 millones de personas no tienen accesso a la red elétrica. Mapas precisos de la infraestructura de energía son fundamentales para ampliar el acceso de la población",
+      "speakers": [10]
+    },
+    {
+      "id": 11,
+      "title": "OpenStreetMap, Arquitectura y Urbanismo",
+      "abstract": "OpenStreetMap es abierto y ademas multidisciplinario. En esta charla veremos como puede interacturar en la Arquitectura y el Urbanismo a la hora de realizar proyectos.",
+      "speakers": [11]
+    },
+    {
+      "id": 12,
+      "title": "El Ecosistema OpenStreetMap",
+      "abstract": "OpenStreetMap no es sólo un mapa, es una base de datos. A partir de ese concepto exploraremos los diversos servicios, aplicaciones, herramientas, usos y soluciones que surgieron de los datos de OSM, su comunidad y organizaciones relacionadas.",
+      "speakers": [12]
+    },
+    {
+      "id": 13,
+      "title": "OSM sale al campo con INDEC",
+      "abstract": "Cómo se incorporó información de OpenStreetMap al Censo Nacional Agropecuario 2018 - INDEC Argentina. Informacíon offline y online. Cruce de información de diferentes fuentes para componer un capa base a fin de identificar las parcelas agropecuarias durante el operativo",
+      "speakers": [13]
+    },
+    {
+      "id": 14,
+      "title": "OSM mapeo libre a los servicios de ayuda humanitaria",
+      "abstract": "Al participar en muchas actividades cartográficas apoyadas por OIF en Haití. Me gustaría compartir mi experiencia sobre el uso del software libre de cartografía en crisis. Caso del huracán Mateo: http://urlz.fr/7yP3",
+      "speakers": [14]
+    },
+    {
+      "id": 15,
+      "title": "Mapeamento de Favelas com uso do OpenStreetMap (OSM) no TETO Brasil",
+      "abstract": "A fala visa apresentar os processos de mapeamento de favelas desenvolvidos pelo TETO (TECHO) Brasil. O foco estão nas contribuições e limitações que as aplicações do “universo” OSM podem dar a tais processos. Os pontos abordados contribuem em atividades de ONGs em área vulneráveis na América Latina.",
+      "speakers": [15]
+    },
+    {
+      "id": 16,
+      "title": "Mapeamento Colaborativo e Mapeamento de Referência Oficial: importando informação geográfica entre eles",
+      "abstract": "A fala visa explanar sobre as potencialidades e os desafios da importação de informações geográficas mutuamente entre o Mapeamento Colaborativo e o Mapeamento de Referência Oficial. Além disso, apresenta o desenvolvimento de ferramenta que busca a integração desses mapeamentos no contexto brasileiro",
+      "speakers": [15]
+    },
+    {
+      "id": 17,
+      "title": "Creando un mapa impreso con distintas alternativas",
+      "abstract": "Por qué dejar a OSM solo en la web. En esta charla veremos pros y contras de distintas alternativas para elaborar un mapa impreso basado en la fuente más completa del mundo. Resultado: un mapa libre para colgar en la pared.",
+      "speakers": [16]
+    },
+    {
+      "id": 18,
+      "title": "Cartografía humanitaria de los humedales y comunidades de pescadores costeras para la resiliencia ante el cambio y la variabilidad climática",
+      "abstract": "Resultados del proyecto desarrollado por la Universidad de Antioquia. Aborda el trabajo de mapeo de los asentamientos de comunidades pesqueras insertados en este territorio, y trabajo de campo participativo, integrando la percepción de los servicios brindados por el ecosistema y cambio climático.",
+      "speakers": [17]
+    },
+    {
+      "id": 19,
+      "title": "Construcción de Isocronas para análisis de accesibilidad",
+      "abstract": "Las isocronas son polígonos que nos permiten determinar cuanta distancia se puede recorrer en una cantidad de tiempo definida en un modo de transporte también definido - ya sea en auto, bus, a pie. El objetivo de este trabajo es analizar diferentes métodos y herramientas para construir isócronas.",
+      "speakers": [18]
+    },
+    {
+      "id": 20,
+      "title": "Obtener y Visualizar Datos de OSM con R",
+      "abstract": "En esta charla, vamos a compartir paquetes del lenguaje R para poder obtener datos brutos de OSM, a través de la API Overpass. La idea es que una vez que tengamos los datos en el entorno R y/o RStudio, podemos usarlos con la potencia de dicho lenguaje.",
+      "speakers": [19]
+    },
+    {
+      "id": 21,
+      "title": "Compartiendo experiencias de incorporar estudiantes universitarios en proyectos y actividades que utilizan OSM",
+      "abstract": "El LabExp es un espacio de extensión e investigación donde incorporamos estudiantes universitarios en actividades y proyectos que utilizan OSM y que buscan hacer aportes a distintas comunidades; con lo cual fortalecemos el proceso formativo de los estudiantes más allá de lo técnico.",
+      "speakers": [20]
+    }
   ],
   "types": [
-    {"id": 1, "title": {"en": "Talk", "es": "Charla", "pt": "Palestra"}},
-    {"id": 2, "title": {"en": "Workshop", "es": "Taller", "pt": "Oficina"}},
-    {"id": 3, "title": {"en": "Round table", "es": "Mesa redonda", "pt": "Mesa redonda"}},
-    {"id": 4, "title": {"en": "Mapathon", "es": "Mapaton", "pt": "Mapaton"}}
+    {
+      "id": 1,
+      "title": {
+        "en": "Talk",
+        "es": "Charla",
+        "pt": "Palestra"
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Workshop",
+        "es": "Taller",
+        "pt": "Workshop"
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Plenary",
+        "es": "Plenaria",
+        "pt": "Plenário"
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "Mapathon",
+        "es": "Mapaton",
+        "pt": "Mapaton"
+      }
+    }
   ],
   "countries": [
-    {"id": 1, "name": "Perú", "code": "PE"},
-    {"id": 2, "name": "Argentina", "code": "AR"},
-    {"id": 3, "name": "México", "code": "MX"},
-    {"id": 4, "name": "Bolivia", "code": "BO"},
-    {"id": 5, "name": "Chile", "code": "CL"},
-    {"id": 6, "name": "Alemania", "code": "DE"},
-    {"id": 7, "name": "Colombia", "code": "CO"}
+    {
+      "id": 1,
+      "name": "Argentina",
+      "code": "AR"
+    },
+    {
+      "id": 2,
+      "name": "Brasil",
+      "code": "BR"
+    },
+    {
+      "id": 3,
+      "name": "México",
+      "code": "MX"
+    },
+    {
+      "id": 4,
+      "name": "Bolivia",
+      "code": "BO"
+    },
+    {
+      "id": 5,
+      "name": "Chile",
+      "code": "CL"
+    },
+    {
+      "id": 6,
+      "name": "Perú",
+      "code": "PE"
+    },
+    {
+      "id": 7,
+      "name": "Colombia",
+      "code": "CO"
+    },
+    {
+      "id": 8,
+      "name": "Nicaragua",
+      "code": "NI"
+    },
+    {
+      "id": 9,
+      "name": "Francia",
+      "code": "FR"
+    },
+    {
+      "id": 10,
+      "name": "Haití",
+      "code": "HT"
+    },
+    {
+      "id": 11,
+      "name": "Costa Rica",
+      "code": "CR"
+    }
   ]
 }

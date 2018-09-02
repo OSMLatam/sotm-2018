@@ -14,7 +14,7 @@ lang: en
           <h2>24<sup>th</sup> - 25<sup>th</sup> September</h2>
           <div class="about-button">
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a class="btn btn-default" href="#about" role="button">About the event</a>
+              <a class="btn btn-default" href="https://sotmlatam2018.eventbrite.com.ar" target="_blank" role="button">Register</a>
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
               <a href="#about" class="btn btn-circle page-scroll">
@@ -23,7 +23,7 @@ lang: en
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
               <a target="_blank" class="btn btn-default"
-              href="https://www.papercall.io/events/1195" role="button">
+              href="https://www.papercall.io/sotm-latam-2018" role="button">
                 Send your presentation
               </a>
             </span>
@@ -57,13 +57,20 @@ lang: en
   </div>
 </section>
 
-<!--
 <section id="program" class="container content-section text-center">
   <div class="row text-center">
     <h2>
-      Program
+      Preliminary program
     </h2>
   </div>
+  <div class="text-center pagination-centered" ng-app="App" ng-controller="sotm">
+    <div id="activities" ng-repeat="day in days" class="container-fluid">
+      <br>
+      {% include preprogram.html %}
+      <br>
+    </div>
+  </div>
+<!--
   <div ng-app="App" ng-controller="sotm">
     <div ng-repeat="day in days">
       <h3>{[{ day.date.en }]}</h3>
@@ -72,8 +79,8 @@ lang: en
       <br>
     </div>
   </div>
-</section>
 -->
+</section>
 
 <section id="venue" class="container content-section text-center">
   <div class="row text-center">
@@ -122,7 +129,7 @@ lang: en
           <span class="glyphicon glyphicon-check"></span>
           <div class="caption text-center">
             <h3>Register</h3>
-            <p>Send your talk proposal until September 25th</p>
+            <p>Send your talk proposal until September 7th</p>
           </div>
         </div>
       </a>
@@ -165,7 +172,23 @@ lang: en
   </div>
 </section>
 
+
 <section id="sponsors" class="container content-section text-center">
+   <div class="row text-center">
+    <h2>
+      Sponsored by
+    </h2>
+ 
+
+ </div>
+    <div class="col-sm-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
+      <a href="http://kaartgroup.com/" target="_blank" class="thumbnail">
+        <img src="{{ "/images/kaart-logoh.jpg" | prepend: site.baseurl }}" alt="kaart" width="200">
+      </a>
+    </div>
+
+</section>
+<section id="apoyo" class="container content-section text-center">
   <div class="row text-center">
     <h2>
       Supported by
@@ -186,9 +209,31 @@ lang: en
 
       <div class="col-sm-4 col-md-4">
  <a href="http://geoinquietos.org/grupos/argentina/" target="_blank" class="thumbnail">
-        <img src="{{ "/images/geoinquietos.png" | prepend: site.baseurl }}" alt="geoinquietos" width="150">
+        <img src="{{ "/images/geoinquietos-new.png" | prepend: site.baseurl }}" alt="geoinquietos" width="200">
       </a>
-     </div>
+     </div> 
+            <div class="col-sm-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
+ <a href="https://geochicas.org/" target="_blank" class="thumbnail">
+        <img src="{{ "/images/geochicas.jpg" | prepend: site.baseurl }}" alt="geochicas" width="200">
+      </a>
+     </div>      
   <br>
+</section>
+<section id="transporte" class="container content-section text-center">
+ <div class="row text-center">
+    <h3>
+      Official Transportation
+    </h3>
+ <br>
+
+ </div>
+    <div class="col-sm-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
+      <a href="http://ww1.aerolineas.com.ar/arg/main.asp?idSitio=AR&idPagina=161&idIdioma=es&congresoID=5960" target="_blank" class="thumbnail">
+        <img src="{{ "/images/aerolineas.png" | prepend: site.baseurl }}" alt="aerolineas" width="200">
+      </a>
+    </div>
+<br>
+</section>
+
 
 {% include modals.html %}

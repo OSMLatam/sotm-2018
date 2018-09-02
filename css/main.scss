@@ -295,3 +295,11 @@ a:focus, a:hover {
   margin-top: 75px;
   width: 220px;
 }
+@media (min-width: 700px) {
+  .thumbnail.center-block {
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    min-height: 242px;
+  }
+}

@@ -12,7 +12,7 @@ email: "info@osmlatam.org"
 facebook_page: "osmlatam"
 twitter_username: "osmlatam"
 github_username:
-website: "http://state.osmlatam.org"
+# website: "http://state.osmlatam.org"
 exclude: [README.md]
 
 # Build settings
@@ -22,61 +22,70 @@ markdown: kramdown
 t:
   en:
     language_name: English
+    modal:
+      abstract: Abstract
+      close: Close
     menu:
       about:
         label: About
         url: /en/#about
       program:
         label: Send your presentation
-        url: https://www.papercall.io/events/1195
-        # label: Program
-        # url: /en/#program
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Program
+        url: /en/#program
       venue:
         label: Venue
         url: /en/#venue
-      # register:
-        # label: Register
-        # url: http://state.osmlatam.org/#register
+      register:
+        label: Register
+        url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
-        url: http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
   es:
     language_name: Español
+    modal:
+      abstract: Ver resumen
+      close: Cerrar
     menu:
       about:
         label: Sobre
         url: /#about
       program:
         label: Envia tu presentación
-        url: https://www.papercall.io/events/1195
-        # label: Programa
-        # url: /#program
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Programa
+        url: /#program
       venue:
-        label: Local
+        label: Lugar
         url: /#venue
-      # register:
-       # label: Regístrese
-       # url: http://state.osmlatam.org/#registrar
+      register:
+        label: Regístrate
+        url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
-        url: http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2018
   pt:
     language_name: Português
+    modal:
+      abstract: Ver resumo
+      close: Fechar
     menu:
       about:
         label: Sobre
         url: /pt/#about
       program:
         label: Envia sua palestra
-        url: https://www.papercall.io/events/1195
-        # label: Programa
-        # url: /pt/#program
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Programa
+        url: /pt/#program
       venue:
         label: Local
         url: /pt/#venue
-      # register:
-       # label: Inscreva-se
-       # url: http://state.osmlatam.org/#registrar
+      register:
+       label: Inscreva-se
+       url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
-        url: http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2018
+        url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018
