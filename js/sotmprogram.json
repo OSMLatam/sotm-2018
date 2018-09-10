@@ -154,6 +154,62 @@
           "talk": 21,
           "location": 1,
           "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 22,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 23,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 24,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 25,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 26,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 27,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 28,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 29,
+          "location": 1,
+          "duration": "30min"
         }
       ]
     }
@@ -296,6 +352,54 @@
       "name": "Jaime Gutiérrez Alfaro",
       "country": 11,
       "organization": "Instituto Tecnológico de Costa Rica"
+    },
+    {
+      "id": 21,
+      "name": "Martín Gersbach",
+      "country": 1,
+      "organization": "Museos Abiertos"
+    },
+    {
+      "id": 22,
+      "name": "Jorge Aguirre",
+      "country": 12,
+      "organization": "KAART"
+    },
+    {
+      "id": 23,
+      "name": "Constanza Verón",
+      "country": 1,
+      "organization": "Wikimedia Argentina"
+    },
+    {
+      "id": 24,
+      "name": "Julián Perelli",
+      "country": 1,
+      "organization": "Cualbondi"
+    },
+    {
+      "id": 25,
+      "name": "Pablo Botta",
+      "country": 1,
+      "organization": "Mobvilizame - STS Rosario"
+    },
+    {
+      "id": 26,
+      "name": "Juan Carlos Cristaldo",
+      "country": 13,
+      "organization": ""
+    },
+    {
+      "id": 27,
+      "name": "Wille Marcel",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 28,
+      "name": "Martin Moroni",
+      "country": 1,
+      "organization": "Subsecretaría de Planeamiento Energético - Secretaría de Energía de la Nación"
     }
   ],
   "talks": [
@@ -403,7 +507,7 @@
     },
     {
       "id": 18,
-      "title": "Cartografía humanitaria de los humedales y comunidades de pescadores costeras para la resiliencia ante el cambio y la variabilidad climática",
+      "title": "Cartografía humanitaria de humedales y comunidades de pescadores costeras para resiliencia ante el cambio y variabilidad climática",
       "abstract": "Resultados del proyecto desarrollado por la Universidad de Antioquia. Aborda el trabajo de mapeo de los asentamientos de comunidades pesqueras insertados en este territorio, y trabajo de campo participativo, integrando la percepción de los servicios brindados por el ecosistema y cambio climático.",
       "speakers": [17]
     },
@@ -421,9 +525,57 @@
     },
     {
       "id": 21,
-      "title": "Compartiendo experiencias de incorporar estudiantes universitarios en proyectos y actividades que utilizan OSM",
+      "title": "Incorporar estudiantes universitarios en proyectos y actividades que utilizan OSM",
       "abstract": "El LabExp es un espacio de extensión e investigación donde incorporamos estudiantes universitarios en actividades y proyectos que utilizan OSM y que buscan hacer aportes a distintas comunidades; con lo cual fortalecemos el proceso formativo de los estudiantes más allá de lo técnico.",
       "speakers": [20]
+    },
+    {
+      "id": 22,
+      "title": "Museos Abiertos",
+      "abstract": "Museos Abiertos/OSM/DBPedia/Wikidata. Creando una plataforma Big Data para la búsqueda semántica de datos patrimoniales",
+      "speakers": [21]
+    },
+    {
+      "id": 23,
+      "title": "KAART - Recorriendo el mundo - haciendo un mapa a la vez",
+      "abstract": "Kaart ha recorrido el mundo en los últimos 3 años, mapeando y conociendo aspectos particulares de cada lugar. La meta es fomentar el apoyo a OSM buscando la colaboración de personas entusiastas en cada rincón del planeta y crear una red de cartógrafos locales trabajando en harmonía con un mismo fin.",
+      "speakers": [22]
+    },
+    {
+      "id": 24,
+      "title": "Enlazando proyectos: Wikimedia y OpenStreetMap",
+      "abstract": "Los proyectos Wikimedia se nutren y nutren de otros proyectos colaborativos como OSM. Queremos compartir las distintas experiencias e iniciativas que se vienen desarrollando y pensar formas de seguir articulando nuevos proyectos para fortalecernos mutuamente.",
+      "speakers": [23]
+    },
+    {
+      "id": 25,
+      "title": "Ruteador de transporte publico basado en OSM public transport sin GTFS",
+      "abstract": "Estamos trabajando en el proceso de integrar data de transport OSM en cualbondi.com.ar para uso como herramienta de ruteo ruteo de transporte publico basado en OSM. No hemos encontrado una herramienta igual en internet y pensamos proveerla inicialmente en Argentina y luego Globalmente.",
+      "speakers": [24]
+    },
+    {
+      "id": 26,
+      "title": "Carpoolear - De GMaps a OpenStreetMap",
+      "abstract": "Carpoolear es la primera app abierta de carpooling de Argentina, surgida de la ONG STS Rosaro. En esta charla vamos a recorrer lo que hicimos para dejar Gmaps e incorporar OSM en toda nuestra plataforma.",
+      "speakers": [25]
+    },
+    {
+      "id": 27,
+      "title": "El Proyecto Map Py OSM",
+      "abstract": "Map PY OSM es un proyecto desarrollado en Paraguay que aspira a producir de modo colaborativo una base abierta de datos geoespaciales urbanos. Por medio del trabajo de voluntarios, cursos en la Universidad, y la celebración de Mapatones, estamos mapeando todas las ciudades del país, casa por casa.",
+      "speakers": [26]
+    },
+    {
+      "id": 28,
+      "title": "Desarrollando OSMCha para la comunidad",
+      "abstract": "OSMCha es un software que nos ayuda a visualizar de manera fácil y comprensible los cambios hechos en OpenStreetMap. Desde el inicio de 2017, OSMCha está en un intenso ritmo de desarrollo para que la comunidad OSM tenga en sus manos una excelente herramienta.",
+      "speakers": [27]
+    },
+    {
+      "id": 29,
+      "title": "Uso de OSM para la asignación eficiente de subsidios a servicios públicos mediante focalización geográfica",
+      "abstract": "Para implementar una política de subsidios a los servicios públicos con focalización geográfica se debe disponer de información geográfica de indicadores de pobreza, redes de servicios públicos energético, esquema tarifario, salud pública, planes sociales, nivel económico y direcciones postales.",
+      "speakers": [28]
     }
   ],
   "types": [
@@ -515,6 +667,16 @@
       "id": 11,
       "name": "Costa Rica",
       "code": "CR"
+    },
+    {
+      "id": 12,
+      "name": "Guatemala",
+      "code": "GT"
+    },
+    {
+      "id": 13,
+      "name": "Paraguay",
+      "code": "PY"
     }
   ]
 }
