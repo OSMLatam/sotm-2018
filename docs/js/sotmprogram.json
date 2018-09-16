@@ -1,529 +1,682 @@
 {
-	"days": {
-		"id": 1,
-		"date": {
-			"en": "Monday - September 24",
-			"es": "Lunes - 24 de Septiembre",
-			"pt": "Segunda-feira - 24 de Setembro"
-		},
-		"activities": [
-			{
-				"hour": "10:30",
-				"type": 1,
-				"talk": 1,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 2,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 3,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 4,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 5,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 6,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 7,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 8,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 9,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 10,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 11,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 12,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 13,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 14,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 15,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 17,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 16,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 18,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 19,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 20,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 21,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 22,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 23,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 24,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 25,
-				"location": 1,
-				"duration": "30min"
-			}, {
-				"hour": "10:30",
-				"type": 1,
-				"talk": 26,
-				"location": 1,
-				"duration": "30min"
-			}
-		]
-	},
-	"locations": [
-		{
-			"id": 1,
-			"name": {
-				"en": "Room 1",
-				"es": "Sala 1",
-				"pt": "Sala 1"
-			}
-		}, {
-			"id": 2,
-			"name": {
-				"en": "Room 2",
-				"es": "Sala 2",
-				"pt": "Sala 2"
-			}
-		}
-	],
-	"speakers": [
-		{
-			"id": 1,
-			"name": "Thierry Jean",
-			"country": 2,
-			"organization": "OSM Brasil"
-		}, {
-			"id": 2,
-			"name": "Daniel Marcelo Quisbert Calle",
-			"country": 4,
-			"organization": "OSM Bolivia"
-		}, {
-			"id": 3,
-			"name": "Fernando Castro",
-			"country": 7,
-			"organization": "OSM Colombia"
-		}, {
-			"id": 4,
-			"name": "Martina Lewin Hirschhorn y Rosario Fassina",
-			"country": 1,
-			"organization": "ACIJ"
-		}, {
-			"id": 5,
-			"name": "Selene Yang",
-			"country": 8,
-			"organization": "Geochicas"
-		}, {
-			"id": 6,
-			"name": "Ariel Anthieni",
-			"country": 1,
-			"organization": "OSM Argentina"
-		}, {
-			"id": 7,
-			"name": "Horacio Castellaro",
-			"country": 1,
-			"organization": "OSM Argentina"
-		}, {
-			"id": 8,
-			"name": "Alban Vivert",
-			"country": 9,
-			"organization": ""
-		}, {
-			"id": 9,
-			"name": "Helmut Kemper",
-			"country": 2,
-			"organization": "OSM Brasil"
-		}, {
-			"id": 10,
-			"name": "Ruben Lopez Mendoza",
-			"country": 6,
-			"organization": "OSM Perú"
-		}, {
-			"id": 11,
-			"name": "Nicolas Perez",
-			"country": 1,
-			"organization": "Gobierno de la Ciudad de Buenos Aires"
-		}, {
-			"id": 12,
-			"name": "Gonzalo Gabriel Perez",
-			"country": 1,
-			"organization": "OSM Argentina"
-		}, {
-			"id": 13,
-			"name": "Manuel Retamozo",
-			"country": 1,
-			"organization": "OSM Argentina"
-		}, {
-			"id": 14,
-			"name": "John Carlo Sainvil",
-			"country": 10,
-			"organization": "Humanitarian OpenStreetMap Team"
-		}, {
-			"id": 15,
-			"name": "Everton Bortolini",
-			"country": 2,
-			"organization": "OSM Brasil"
-		}, {
-			"id": 16,
-			"name": "Federico Pértile",
-			"country": 1,
-			"organization": "OSM Argentina"
-		}, {
-			"id": 17,
-			"name": "Nixon Arley Aristizabal Niño",
-			"country": 7,
-			"organization": "Universidad de Antioquia"
-		}, {
-			"id": 18,
-			"name": "Martín Fernando Ortiz",
-			"country": 1,
-			"organization": "Cooperativa Geográfica Cambalache"
-		}, {
-			"id": 19,
-			"name": "José Mourglia",
-			"country": 1,
-			"organization": "OSM Argentina"
-		}, {
-			"id": 20,
-			"name": "Jaime Gutiérrez Alfaro",
-			"country": 11,
-			"organization": "Instituto Tecnológico de Costa Rica"
-		}, {
-			"id": 21,
-			"name": "Martin Gersbach",
-			"country": 1,
-			"organization": "Museos Abiertos"
-		}, {
-			"id": 22,
-			"name": "Jorge Aguirre",
-			"country": 12,
-			"organization": "KAART Group"
-		}, {
-			"id": 23,
-			"name": "Constanza Ver�n",
-			"country": 1,
-			"organization": "Wikimedia"
-		}, {
-			"id": 24,
-			"name": "Juli�n Perelli",
-			"country": 1,
-			"organization": "Cual Bondi"
-		}, {
-			"id": 25,
-			"name": "Pablo Botta",
-			"country": 1,
-			"organization": "Carpoolear"
-		}
-	],
-	"talks": [
-		{
-			"id": 1,
-			"title": "How to sell OSM",
-			"abstract": "Thierry has focused on Selling OSM project in Brazil developing Public Relation initiatives with Governments, Utility companies, ministries, etc… Thierry will show how a business minded professional can help OSM and will give ways for other OSM enthusiasts to do the same in their countries.",
-			"speakers": 1
-		}, {
-			"id": 2,
-			"title": "El mapa de OpenStreetMap (Mapnik) en offline sobre Linux y su aplicación en la educación",
-			"abstract": "ge0tic es un proyecto 100% implementado y desarrollado en OpenSource, utiliza el mapa de OSM (mapnik) como mapa base, mapas de interés educativo, todo sobre una plataforma Linux y pretendo llevarlo a todas las unidades educativas de Bolivia, para pueda ser una herramienta SIG web de apoyo educativo.",
-			"speakers": 2
-		}, {
-			"id": 3,
-			"title": "Herramientas para coordinar equipos para el trabajo en Cartografía Comunitaria",
-			"abstract": "OSM Colombia ha dispuesto una serie herramientas libres para la comunidad de Latam para ejercicios de Cartografía, están asociadas a una metodología para enseñar a hacer mapas con herramientas de OSM, compartiremos la forma como hemos coordinado equipos de trabajo para realizar tareas de mapeo.",
-			"speakers": 3
-		}, {
-			"id": 4,
-			"title": "Proyecto: Caminos de la Villa",
-			"abstract": "'Caminos de la Villa' es un portal que visibiliza las condiciones de vida en más de 20 barrios segregados de la Ciudad de Buenos Aires, aportando a sus pobladores una herramienta tecnológica para el diagnóstico comunitario de las prestaciones de servicios y de monitoreo y control de obras públicas.",
-			"speakers": 4
-		}, {
-			"id": 5,
-			"title": "Geochicas y geofeminismos. Proyectos, resultados y desafíos",
-			"abstract": "A dos años de haber la fundación de Geochicas, queremos presentar un recorrido de nuestros proyectos, resultados más importantes, alianzas y desafíos como colectivo de mujeres mapeadoras.",
-			"speakers": 5
-		}, {
-			"id": 6,
-			"title": "Integración de Catálogo de Objetos de Infraestructura de Datos Espaciales (IDE) con OSM",
-			"abstract": "La propuesta que se está trabajando es que a partir de una estructura ya consensuada como el catálogo de objetos de IDERA (IDE República Argentina) se generan los conjuntos de etiquetas para la identificación de los objetos, y así también retroalimentar el catálogo de objetos de la IDE. Como resultado de esto se está generando un conjunto de present para JOSM y la generación del catálogo de objetos de la IDE en un soporte compatible (en XML, según la ISO 19110) donde se puedan integrar un catálogo en Geonetwork con los conjuntos de etiquetas que identifican al objeto.",
-			"speakers": 6
-		}, {
-			"id": 7,
-			"title": "Geocodificación de domicilios con OSM",
-			"abstract": "Geocodificación de domicilios con OSM. Repaso de métodos de geocodificación. Cobertura de datos de base para la geocodificación en Argentina. Existencia de datos oficiales para incorporar a OSM. Evaluación de la calidad de la información geoespacial para la geocodificación.",
-			"speakers": 7
-		}, {
-			"id": 8,
-			"title": "Nomad Maps: Itinerancia cartográfica andina... a bicicleta",
-			"abstract": "Nomad Maps (proyecto voluntario de CartONG) es una itinerancia cartográfica de 5000 kms a bicicleta atravesando Colombia, Ecuador y Perú entre mayo y septiembre 2018. Se les presentará los resultados de la expedición, los proyectos emblemáticos de OSM encontrados y perspectivas para el futuro!",
-			"speakers": 8
-		}, {
-			"id": 9,
-			"title": "Projeto gOsm",
-			"abstract": "Um servidor de mapas de código aberto feito para que qualquer pessoa possa ter seu próprio servidor.",
-			"speakers": 9
-		}, {
-			"id": 10,
-			"title": "Mapeo de redes eléctricas con ayuda de Machine Learning",
-			"abstract": "Aproximadamente 1,1 billones de personas en todo el mundo carecen de acceso a la electricidad, mientras que en Latinoamérica alrededor 30 millones de personas no tienen accesso a la red elétrica. Mapas precisos de la infraestructura de energía son fundamentales para ampliar el acceso de la población",
-			"speakers": 10
-		}, {
-			"id": 11,
-			"title": "OpenStreetMap, Arquitectura y Urbanismo",
-			"abstract": "OpenStreetMap es abierto y ademas multidisciplinario. En esta charla veremos como puede interacturar en la Arquitectura y el Urbanismo a la hora de realizar proyectos.",
-			"speakers": 11
-		}, {
-			"id": 12,
-			"title": "El Ecosistema OpenStreetMap",
-			"abstract": "OpenStreetMap no es sólo un mapa, es una base de datos. A partir de ese concepto exploraremos los diversos servicios, aplicaciones, herramientas, usos y soluciones que surgieron de los datos de OSM, su comunidad y organizaciones relacionadas.",
-			"speakers": 12
-		}, {
-			"id": 13,
-			"title": "OSM sale al campo con INDEC",
-			"abstract": "Cómo se incorporó información de OpenStreetMap al Censo Nacional Agropecuario 2018 - INDEC Argentina. Informacíon offline y online. Cruce de información de diferentes fuentes para componer un capa base a fin de identificar las parcelas agropecuarias durante el operativo",
-			"speakers": 13
-		}, {
-			"id": 14,
-			"title": "OSM mapeo libre a los servicios de ayuda humanitaria",
-			"abstract": "Al participar en muchas actividades cartográficas apoyadas por OIF en Haití. Me gustaría compartir mi experiencia sobre el uso del software libre de cartografía en crisis. Caso del huracán Mateo: http://urlz.fr/7yP3",
-			"speakers": 14
-		}, {
-			"id": 15,
-			"title": "Mapeamento de Favelas com uso do OpenStreetMap (OSM) no TETO Brasil",
-			"abstract": "A fala visa apresentar os processos de mapeamento de favelas desenvolvidos pelo TETO (TECHO) Brasil. O foco estão nas contribuições e limitações que as aplicações do “universo” OSM podem dar a tais processos. Os pontos abordados contribuem em atividades de ONGs em área vulneráveis na América Latina.",
-			"speakers": 15
-		}, {
-			"id": 16,
-			"title": "Mapeamento Colaborativo e Mapeamento de Referência Oficial: importando informação geográfica entre eles",
-			"abstract": "A fala visa explanar sobre as potencialidades e os desafios da importação de informações geográficas mutuamente entre o Mapeamento Colaborativo e o Mapeamento de Referência Oficial. Além disso, apresenta o desenvolvimento de ferramenta que busca a integração desses mapeamentos no contexto brasileiro",
-			"speakers": 15
-		}, {
-			"id": 17,
-			"title": "Creando un mapa impreso con distintas alternativas",
-			"abstract": "Por qué dejar a OSM solo en la web. En esta charla veremos pros y contras de distintas alternativas para elaborar un mapa impreso basado en la fuente más completa del mundo. Resultado: un mapa libre para colgar en la pared.",
-			"speakers": 16
-		}, {
-			"id": 18,
-			"title": "Construcción de Isocronas para análisis de accesibilidad",
-			"abstract": "Las isocronas son polígonos que nos permiten determinar cuanta distancia se puede recorrer en una cantidad de tiempo definida en un modo de transporte también definido - ya sea en auto, bus, a pie. El objetivo de este trabajo es analizar diferentes métodos y herramientas para construir isócronas.",
-			"speakers": 18
-		}, {
-			"id": 19,
-			"title": "Obtener y Visualizar Datos de OSM con R",
-			"abstract": "En esta charla, vamos a compartir paquetes del lenguaje R para poder obtener datos brutos de OSM, a través de la API Overpass. La idea es que una vez que tengamos los datos en el entorno R y/o RStudio, podemos usarlos con la potencia de dicho lenguaje.",
-			"speakers": 19
-		}, {
-			"id": 20,
-			"title": "Compartiendo experiencias de incorporar estudiantes universitarios en proyectos y actividades que utilizan OSM",
-			"abstract": "El LabExp es un espacio de extensión e investigación donde incorporamos estudiantes universitarios en actividades y proyectos que utilizan OSM y que buscan hacer aportes a distintas comunidades; con lo cual fortalecemos el proceso formativo de los estudiantes más allá de lo técnico.",
-			"speakers": 20
-		}, {
-			"id": 21,
-			"title": "Museos Abiertos",
-			"abstract": "Museos Abiertos/OSM/DBPedia/Wikidata. Creando una plataforma Big Data para la b�squeda sem�ntica de datos patrimoniales.",
-			"speakers": 21
-		}, {
-			"id": 22,
-			"title": "KAART - Recorriendo el mundo - haciendo un mapa a la vez ",
-			"abstract": "Kaart ha recorrido el mundo en los �ltimos 3 a�os, mapeando y conociendo aspectos particulares de cada lugar. La meta es fomentar el apoyo a OSM buscando la colaboraci�n de personas entusiastas en cada rinc�n del planeta y crear una red de cart�grafos locales trabajando en harmon�a con un mismo fin.",
-			"speakers": 22
-		}, {
-			"id": 23,
-			"title": "Enlazando proyectos: wikimedia y openstreetmap",
-			"abstract": "Los proyectos Wikimedia se nutren y nutren de otros proyectos colaborativos como OSM. Queremos compartir las distintas experiencias e iniciativas que se vienen desarrollando y pensar formas de seguir articulando nuevos proyectos para fortalecernos mutuamente.",
-			"speakers": 23
-		}, {
-			"id": 24,
-			"title": "Ruteador de transporte publico basado en OSM public transport sin GTFS",
-			"abstract": "Estamos trabajando en el proceso de integrar data de transport OSM en cualbondi.com.ar para uso como herramienta de ruteo ruteo de transporte publico basado en OSM. No hemos encontrado una herramienta igual en internet y pensamos proveerla inicialmente en Argentina y luego Globalmente.",
-			"speakers": 24
-		}, {
-			"id": 25,
-			"title": "Carpoolear - De GMaps a OpenStreetMap",
-			"abstract": "Carpoolear es la primera app abierta de carpooling de Argentina, surgida de la ONG STS Rosaro. En esta charla vamos a recorrer lo que hicimos para dejar Gmaps e incorporar OSM en toda nuestra plataforma.",
-			"speakers": 25
-		}, {
-			"id": 26,
-			"title": "Cartografía humanitaria de los humedales y comunidades de pescadores costeras para la resiliencia ante el cambio y la variabilidad climática",
-			"abstract": "Resultados del proyecto desarrollado por la Universidad de Antioquia. Aborda el trabajo de mapeo de los asentamientos de comunidades pesqueras insertados en este territorio, y trabajo de campo participativo, integrando la percepción de los servicios brindados por el ecosistema y cambio climático.",
-			"speakers": 17
-		}
-	],
-	"types": [
-		{
-			"id": 1,
-			"title": {
-				"en": "Talk",
-				"es": "Charla",
-				"pt": "Palestra"
-			}
-		}, {
-			"id": 2,
-			"title": {
-				"en": "Workshop",
-				"es": "Taller",
-				"pt": "Workshop"
-			}
-		}, {
-			"id": 3,
-			"title": {
-				"en": "Plenary",
-				"es": "Plenaria",
-				"pt": "Plenário"
-			}
-		}, {
-			"id": 4,
-			"title": {
-				"en": "Mapathon",
-				"es": "Mapaton",
-				"pt": "Mapaton"
-			}
-		}
-	],
-	"countries": [
-		{
-			"id": 1,
-			"name": "Argentina",
-			"code": "AR"
-		}, {
-			"id": 2,
-			"name": "Brasil",
-			"code": "BR"
-		}, {
-			"id": 3,
-			"name": "México",
-			"code": "MX"
-		}, {
-			"id": 4,
-			"name": "Bolivia",
-			"code": "BO"
-		}, {
-			"id": 5,
-			"name": "Chile",
-			"code": "CL"
-		}, {
-			"id": 6,
-			"name": "Perú",
-			"code": "PE"
-		}, {
-			"id": 7,
-			"name": "Colombia",
-			"code": "CO"
-		}, {
-			"id": 8,
-			"name": "Nicaragua",
-			"code": "NI"
-		}, {
-			"id": 9,
-			"name": "Francia",
-			"code": "FR"
-		}, {
-			"id": 10,
-			"name": "Haití",
-			"code": "HT"
-		}, {
-			"id": 11,
-			"name": "Costa Rica",
-			"code": "CR"
-		}, {
-			"id": 12,
-			"name": "Guatemala",
-			"code": "GT"
-		}
-	]
+  "days": [
+    {
+      "id": 1,
+      "date": {
+        "en": "Monday - September 24",
+        "es": "Lunes - 24 de Septiembre",
+        "pt": "Segunda-feira - 24 de Setembro"
+      },
+      "activities": [
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 1,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 2,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 3,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 4,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 5,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 6,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 7,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 8,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 9,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 10,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 11,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 12,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 13,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 14,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 15,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 17,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 16,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 18,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 19,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 20,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 21,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 22,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 23,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 24,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 25,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 26,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 27,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 28,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 29,
+          "location": 1,
+          "duration": "30min"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Room 1",
+        "es": "Sala 1",
+        "pt": "Sala 1"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Room 2",
+        "es": "Sala 2",
+        "pt": "Sala 2"
+      }
+    }
+  ],
+  "speakers": [
+    {
+      "id": 1,
+      "name": "Thierry Jean",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 2,
+      "name": "Daniel Marcelo Quisbert Calle",
+      "country": 4,
+      "organization": "OSM Bolivia"
+    },
+    {
+      "id": 3,
+      "name": "Fernando Castro",
+      "country": 7,
+      "organization": "OSM Colombia"
+    },
+    {
+      "id": 4,
+      "name": "Martina Lewin Hirschhorn y Rosario Fassina",
+      "country": 1,
+      "organization": "ACIJ"
+    },
+    {
+      "id": 5,
+      "name": "Selene Yang",
+      "country": 8,
+      "organization": "Geochicas"
+    },
+    {
+      "id": 6,
+      "name": "Ariel Anthieni",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 7,
+      "name": "Horacio Castellaro",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 8,
+      "name": "Alban Vivert",
+      "country": 9,
+      "organization": ""
+    },
+    {
+      "id": 9,
+      "name": "Helmut Kemper",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 10,
+      "name": "Ruben Lopez Mendoza",
+      "country": 6,
+      "organization": "OSM PerÃº"
+    },
+    {
+      "id": 11,
+      "name": "Nicolas Perez",
+      "country": 1,
+      "organization": "Gobierno de la Ciudad de Buenos Aires"
+    },
+    {
+      "id": 12,
+      "name": "Gonzalo Gabriel Perez",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 13,
+      "name": "Manuel Retamozo",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 14,
+      "name": "John Carlo Sainvil",
+      "country": 10,
+      "organization": "Humanitarian OpenStreetMap Team"
+    },
+    {
+      "id": 15,
+      "name": "Everton Bortolini",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 16,
+      "name": "Federico PÃ©rtile",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 17,
+      "name": "Nixon Arley Aristizabal NiÃ±o",
+      "country": 7,
+      "organization": "Universidad de Antioquia"
+    },
+    {
+      "id": 18,
+      "name": "MartÃ­n Fernando Ortiz",
+      "country": 1,
+      "organization": "Cooperativa GeogrÃ¡fica Cambalache"
+    },
+    {
+      "id": 19,
+      "name": "JosÃ© Mourglia",
+      "country": 1,
+      "organization": "OSM Argentina"
+    },
+    {
+      "id": 20,
+      "name": "Jaime GutiÃ©rrez Alfaro",
+      "country": 11,
+      "organization": "Instituto TecnolÃ³gico de Costa Rica"
+    },
+    {
+      "id": 21,
+      "name": "MartÃ­n Gersbach",
+      "country": 1,
+      "organization": "Museos Abiertos"
+    },
+    {
+      "id": 22,
+      "name": "Jorge Aguirre",
+      "country": 12,
+      "organization": "KAART"
+    },
+    {
+      "id": 23,
+      "name": "Constanza VerÃ³n",
+      "country": 1,
+      "organization": "Wikimedia Argentina"
+    },
+    {
+      "id": 24,
+      "name": "JuliÃ¡n Perelli",
+      "country": 1,
+      "organization": "Cualbondi"
+    },
+    {
+      "id": 25,
+      "name": "Pablo Botta",
+      "country": 1,
+      "organization": "Mobvilizame - STS Rosario"
+    },
+    {
+      "id": 26,
+      "name": "Juan Carlos Cristaldo",
+      "country": 13,
+      "organization": ""
+    },
+    {
+      "id": 27,
+      "name": "Wille Marcel",
+      "country": 2,
+      "organization": "OSM Brasil"
+    },
+    {
+      "id": 28,
+      "name": "Martin Moroni",
+      "country": 1,
+      "organization": "SubsecretarÃ­a de Planeamiento EnergÃ©tico - SecretarÃ­a de EnergÃ­a de la NaciÃ³n"
+    }
+  ],
+  "talks": [
+    {
+      "id": 1,
+      "title": "How to sell OSM",
+      "abstract": "Thierry has focused on Selling OSM project in Brazil developing Public Relation initiatives with Governments, Utility companies, ministries, etcâ€¦ Thierry will show how a business minded professional can help OSM and will give ways for other OSM enthusiasts to do the same in their countries.",
+      "speakers": [1]
+    },
+    {
+      "id": 2,
+      "title": "El mapa de OpenStreetMap (Mapnik) en offline sobre Linux y su aplicaciÃ³n en la educaciÃ³n",
+      "abstract": "ge0tic es un proyecto 100% implementado y desarrollado en OpenSource, utiliza el mapa de OSM (mapnik) como mapa base, mapas de interÃ©s educativo, todo sobre una plataforma Linux y pretendo llevarlo a todas las unidades educativas de Bolivia, para pueda ser una herramienta SIG web de apoyo educativo.",
+      "speakers": [2]
+    },
+    {
+      "id": 3,
+      "title": "Herramientas para coordinar equipos para el trabajo en CartografÃ­a Comunitaria",
+      "abstract": "OSM Colombia ha dispuesto una serie herramientas libres para la comunidad de Latam para ejercicios de CartografÃ­a, estÃ¡n asociadas a una metodologÃ­a para enseÃ±ar a hacer mapas con herramientas de OSM, compartiremos la forma como hemos coordinado equipos de trabajo para realizar tareas de mapeo.",
+      "speakers": [3]
+    },
+    {
+      "id": 4,
+      "title": "Proyecto: Caminos de la Villa",
+      "abstract": "'Caminos de la Villa' es un portal que visibiliza las condiciones de vida en mÃ¡s de 20 barrios segregados de la Ciudad de Buenos Aires, aportando a sus pobladores una herramienta tecnolÃ³gica para el diagnÃ³stico comunitario de las prestaciones de servicios y de monitoreo y control de obras pÃºblicas.",
+      "speakers": [4]
+    },
+    {
+      "id": 5,
+      "title": "Geochicas y geofeminismos. Proyectos, resultados y desafÃ­os",
+      "abstract": "A dos aÃ±os de haber la fundaciÃ³n de Geochicas, queremos presentar un recorrido de nuestros proyectos, resultados mÃ¡s importantes, alianzas y desafÃ­os como colectivo de mujeres mapeadoras.",
+      "speakers": [5]
+    },
+    {
+      "id": 6,
+      "title": "IntegraciÃ³n de CatÃ¡logo de Objetos de Infraestructura de Datos Espaciales (IDE) con OSM",
+      "abstract": "La propuesta que se estÃ¡ trabajando es que a partir de una estructura ya consensuada como el catÃ¡logo de objetos de IDERA (IDE RepÃºblica Argentina) se generan los conjuntos de etiquetas para la identificaciÃ³n de los objetos, y asÃ­ tambiÃ©n retroalimentar el catÃ¡logo de objetos de la IDE. Como resultado de esto se estÃ¡ generando un conjunto de present para JOSM y la generaciÃ³n del catÃ¡logo de objetos de la IDE en un soporte compatible (en XML, segÃºn la ISO 19110) donde se puedan integrar un catÃ¡logo en Geonetwork con los conjuntos de etiquetas que identifican al objeto.",
+      "speakers": [6]
+    },
+    {
+      "id": 7,
+      "title": "GeocodificaciÃ³n de domicilios con OSM",
+      "abstract": "GeocodificaciÃ³n de domicilios con OSM. Repaso de mÃ©todos de geocodificaciÃ³n. Cobertura de datos de base para la geocodificaciÃ³n en Argentina. Existencia de datos oficiales para incorporar a OSM. EvaluaciÃ³n de la calidad de la informaciÃ³n geoespacial para la geocodificaciÃ³n.",
+      "speakers": [7]
+    },
+    {
+      "id": 8,
+      "title": "Nomad Maps: Itinerancia cartogrÃ¡fica andina... a bicicleta",
+      "abstract": "Nomad Maps (proyecto voluntario de CartONG) es una itinerancia cartogrÃ¡fica de 5000 kms a bicicleta atravesando Colombia, Ecuador y PerÃº entre mayo y septiembre 2018. Se les presentarÃ¡ los resultados de la expediciÃ³n, los proyectos emblemÃ¡ticos de OSM encontrados y perspectivas para el futuro!",
+      "speakers": [8]
+    },
+    {
+      "id": 9,
+      "title": "Projeto gOsm",
+      "abstract": "Um servidor de mapas de cÃ³digo aberto feito para que qualquer pessoa possa ter seu prÃ³prio servidor.",
+      "speakers": [9]
+    },
+    {
+      "id": 10,
+      "title": "Mapeo de redes elÃ©ctricas con ayuda de Machine Learning",
+      "abstract": "Aproximadamente 1,1 billones de personas en todo el mundo carecen de acceso a la electricidad, mientras que en LatinoamÃ©rica alrededor 30 millones de personas no tienen accesso a la red elÃ©trica. Mapas precisos de la infraestructura de energÃ­a son fundamentales para ampliar el acceso de la poblaciÃ³n",
+      "speakers": [10]
+    },
+    {
+      "id": 11,
+      "title": "OpenStreetMap, Arquitectura y Urbanismo",
+      "abstract": "OpenStreetMap es abierto y ademas multidisciplinario. En esta charla veremos como puede interacturar en la Arquitectura y el Urbanismo a la hora de realizar proyectos.",
+      "speakers": [11]
+    },
+    {
+      "id": 12,
+      "title": "El Ecosistema OpenStreetMap",
+      "abstract": "OpenStreetMap no es sÃ³lo un mapa, es una base de datos. A partir de ese concepto exploraremos los diversos servicios, aplicaciones, herramientas, usos y soluciones que surgieron de los datos de OSM, su comunidad y organizaciones relacionadas.",
+      "speakers": [12]
+    },
+    {
+      "id": 13,
+      "title": "OSM sale al campo con INDEC",
+      "abstract": "CÃ³mo se incorporÃ³ informaciÃ³n de OpenStreetMap al Censo Nacional Agropecuario 2018 - INDEC Argentina. InformacÃ­on offline y online. Cruce de informaciÃ³n de diferentes fuentes para componer un capa base a fin de identificar las parcelas agropecuarias durante el operativo",
+      "speakers": [13]
+    },
+    {
+      "id": 14,
+      "title": "OSM mapeo libre a los servicios de ayuda humanitaria",
+      "abstract": "Al participar en muchas actividades cartogrÃ¡ficas apoyadas por OIF en HaitÃ­. Me gustarÃ­a compartir mi experiencia sobre el uso del software libre de cartografÃ­a en crisis. Caso del huracÃ¡n Mateo: http://urlz.fr/7yP3",
+      "speakers": [14]
+    },
+    {
+      "id": 15,
+      "title": "Mapeamento de Favelas com uso do OpenStreetMap (OSM) no TETO Brasil",
+      "abstract": "A fala visa apresentar os processos de mapeamento de favelas desenvolvidos pelo TETO (TECHO) Brasil. O foco estÃ£o nas contribuiÃ§Ãµes e limitaÃ§Ãµes que as aplicaÃ§Ãµes do â€œuniversoâ€ OSM podem dar a tais processos. Os pontos abordados contribuem em atividades de ONGs em Ã¡rea vulnerÃ¡veis na AmÃ©rica Latina.",
+      "speakers": [15]
+    },
+    {
+      "id": 16,
+      "title": "Mapeamento Colaborativo e Mapeamento de ReferÃªncia Oficial: importando informaÃ§Ã£o geogrÃ¡fica entre eles",
+      "abstract": "A fala visa explanar sobre as potencialidades e os desafios da importaÃ§Ã£o de informaÃ§Ãµes geogrÃ¡ficas mutuamente entre o Mapeamento Colaborativo e o Mapeamento de ReferÃªncia Oficial. AlÃ©m disso, apresenta o desenvolvimento de ferramenta que busca a integraÃ§Ã£o desses mapeamentos no contexto brasileiro",
+      "speakers": [15]
+    },
+    {
+      "id": 17,
+      "title": "Creando un mapa impreso con distintas alternativas",
+      "abstract": "Por quÃ© dejar a OSM solo en la web. En esta charla veremos pros y contras de distintas alternativas para elaborar un mapa impreso basado en la fuente mÃ¡s completa del mundo. Resultado: un mapa libre para colgar en la pared.",
+      "speakers": [16]
+    },
+    {
+      "id": 18,
+      "title": "CartografÃ­a humanitaria de humedales y comunidades de pescadores costeras para resiliencia ante el cambio y variabilidad climÃ¡tica",
+      "abstract": "Resultados del proyecto desarrollado por la Universidad de Antioquia. Aborda el trabajo de mapeo de los asentamientos de comunidades pesqueras insertados en este territorio, y trabajo de campo participativo, integrando la percepciÃ³n de los servicios brindados por el ecosistema y cambio climÃ¡tico.",
+      "speakers": [17]
+    },
+    {
+      "id": 19,
+      "title": "ConstrucciÃ³n de Isocronas para anÃ¡lisis de accesibilidad",
+      "abstract": "Las isocronas son polÃ­gonos que nos permiten determinar cuanta distancia se puede recorrer en una cantidad de tiempo definida en un modo de transporte tambiÃ©n definido - ya sea en auto, bus, a pie. El objetivo de este trabajo es analizar diferentes mÃ©todos y herramientas para construir isÃ³cronas.",
+      "speakers": [18]
+    },
+    {
+      "id": 20,
+      "title": "Obtener y Visualizar Datos de OSM con R",
+      "abstract": "En esta charla, vamos a compartir paquetes del lenguaje R para poder obtener datos brutos de OSM, a travÃ©s de la API Overpass. La idea es que una vez que tengamos los datos en el entorno R y/o RStudio, podemos usarlos con la potencia de dicho lenguaje.",
+      "speakers": [19]
+    },
+    {
+      "id": 21,
+      "title": "Incorporar estudiantes universitarios en proyectos y actividades que utilizan OSM",
+      "abstract": "El LabExp es un espacio de extensiÃ³n e investigaciÃ³n donde incorporamos estudiantes universitarios en actividades y proyectos que utilizan OSM y que buscan hacer aportes a distintas comunidades; con lo cual fortalecemos el proceso formativo de los estudiantes mÃ¡s allÃ¡ de lo tÃ©cnico.",
+      "speakers": [20]
+    },
+    {
+      "id": 22,
+      "title": "Museos Abiertos",
+      "abstract": "Museos Abiertos/OSM/DBPedia/Wikidata. Creando una plataforma Big Data para la bÃºsqueda semÃ¡ntica de datos patrimoniales",
+      "speakers": [21]
+    },
+    {
+      "id": 23,
+      "title": "KAART - Recorriendo el mundo - haciendo un mapa a la vez",
+      "abstract": "Kaart ha recorrido el mundo en los Ãºltimos 3 aÃ±os, mapeando y conociendo aspectos particulares de cada lugar. La meta es fomentar el apoyo a OSM buscando la colaboraciÃ³n de personas entusiastas en cada rincÃ³n del planeta y crear una red de cartÃ³grafos locales trabajando en harmonÃ­a con un mismo fin.",
+      "speakers": [22]
+    },
+    {
+      "id": 24,
+      "title": "Enlazando proyectos: Wikimedia y OpenStreetMap",
+      "abstract": "Los proyectos Wikimedia se nutren y nutren de otros proyectos colaborativos como OSM. Queremos compartir las distintas experiencias e iniciativas que se vienen desarrollando y pensar formas de seguir articulando nuevos proyectos para fortalecernos mutuamente.",
+      "speakers": [23]
+    },
+    {
+      "id": 25,
+      "title": "Ruteador de transporte publico basado en OSM public transport sin GTFS",
+      "abstract": "Estamos trabajando en el proceso de integrar data de transport OSM en cualbondi.com.ar para uso como herramienta de ruteo ruteo de transporte publico basado en OSM. No hemos encontrado una herramienta igual en internet y pensamos proveerla inicialmente en Argentina y luego Globalmente.",
+      "speakers": [24]
+    },
+    {
+      "id": 26,
+      "title": "Carpoolear - De GMaps a OpenStreetMap",
+      "abstract": "Carpoolear es la primera app abierta de carpooling de Argentina, surgida de la ONG STS Rosaro. En esta charla vamos a recorrer lo que hicimos para dejar Gmaps e incorporar OSM en toda nuestra plataforma.",
+      "speakers": [25]
+    },
+    {
+      "id": 27,
+      "title": "El Proyecto Map Py OSM",
+      "abstract": "Map PY OSM es un proyecto desarrollado en Paraguay que aspira a producir de modo colaborativo una base abierta de datos geoespaciales urbanos. Por medio del trabajo de voluntarios, cursos en la Universidad, y la celebraciÃ³n de Mapatones, estamos mapeando todas las ciudades del paÃ­s, casa por casa.",
+      "speakers": [26]
+    },
+    {
+      "id": 28,
+      "title": "Desarrollando OSMCha para la comunidad",
+      "abstract": "OSMCha es un software que nos ayuda a visualizar de manera fÃ¡cil y comprensible los cambios hechos en OpenStreetMap. Desde el inicio de 2017, OSMCha estÃ¡ en un intenso ritmo de desarrollo para que la comunidad OSM tenga en sus manos una excelente herramienta.",
+      "speakers": [27]
+    },
+    {
+      "id": 29,
+      "title": "Uso de OSM para la asignaciÃ³n eficiente de subsidios a servicios pÃºblicos mediante focalizaciÃ³n geogrÃ¡fica",
+      "abstract": "Para implementar una polÃ­tica de subsidios a los servicios pÃºblicos con focalizaciÃ³n geogrÃ¡fica se debe disponer de informaciÃ³n geogrÃ¡fica de indicadores de pobreza, redes de servicios pÃºblicos energÃ©tico, esquema tarifario, salud pÃºblica, planes sociales, nivel econÃ³mico y direcciones postales.",
+      "speakers": [28]
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "title": {
+        "en": "Talk",
+        "es": "Charla",
+        "pt": "Palestra"
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Workshop",
+        "es": "Taller",
+        "pt": "Workshop"
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Plenary",
+        "es": "Plenaria",
+        "pt": "PlenÃ¡rio"
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "Mapathon",
+        "es": "Mapaton",
+        "pt": "Mapaton"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Argentina",
+      "code": "AR"
+    },
+    {
+      "id": 2,
+      "name": "Brasil",
+      "code": "BR"
+    },
+    {
+      "id": 3,
+      "name": "MÃ©xico",
+      "code": "MX"
+    },
+    {
+      "id": 4,
+      "name": "Bolivia",
+      "code": "BO"
+    },
+    {
+      "id": 5,
+      "name": "Chile",
+      "code": "CL"
+    },
+    {
+      "id": 6,
+      "name": "PerÃº",
+      "code": "PE"
+    },
+    {
+      "id": 7,
+      "name": "Colombia",
+      "code": "CO"
+    },
+    {
+      "id": 8,
+      "name": "Nicaragua",
+      "code": "NI"
+    },
+    {
+      "id": 9,
+      "name": "Francia",
+      "code": "FR"
+    },
+    {
+      "id": 10,
+      "name": "HaitÃ­",
+      "code": "HT"
+    },
+    {
+      "id": 11,
+      "name": "Costa Rica",
+      "code": "CR"
+    },
+    {
+      "id": 12,
+      "name": "Guatemala",
+      "code": "GT"
+    },
+    {
+      "id": 13,
+      "name": "Paraguay",
+      "code": "PY"
+    }
+  ]
 }
