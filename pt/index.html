@@ -11,7 +11,7 @@ lang: pt
         <div class="col-md-8 col-md-offset-2">
           <img src="{{ "/images/LogoSOTM2018.png" | relative_url }}" alt="State of the Map LATAM - Lima 2017" class="img-responsive main-logo">
           <h1>A Conferência Latino-americana <span>do OpenStreetMap</span></h1>
-          <h2>24 e 25 de setembro</h2>
+          <h2>24 de setembro</h2>
           <div class="about-button">
             <span class="col-xs-12 col-sm-4 btn-item">
               <a class="btn btn-default" href="https://sotmlatam2018.eventbrite.com.ar" target="_blank" role="button">Inscreva-se</a>
@@ -22,9 +22,9 @@ lang: pt
               </a>
             </span>
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a target="_blank" class="btn btn-default"
-              href="https://www.papercall.io/sotm-latam-2018" role="button">
-                Envie sua palestra
+              <a class="btn btn-default"
+              href="#program" role="button">
+                Programação
               </a>
             </span>
           </div>
@@ -59,13 +59,13 @@ lang: pt
 <section id="program" class="container content-section text-center">
   <div class="row text-center">
     <h2>
-      Programação preliminar
+      Programação - segunda-feira - 24 de setembro
     </h2>
   </div>
   <div class="text-center pagination-centered" ng-app="App" ng-controller="sotm">
     <div id="activities" ng-repeat="day in days" class="container-fluid">
       <br>
-      {% include preprogram.html %}
+      {% include program.html %}
       <br>
     </div>
   </div>

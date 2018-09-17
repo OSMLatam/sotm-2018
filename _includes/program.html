@@ -11,7 +11,7 @@
         <div class="col-xs-12 activity" ng-if="activity.type != 'interval'" ng-init="talk = get_talk(activity.talk);">
           <p id="label" ng-init="location = get_location(activity.location);">
             <span class="glyphicon glyphicon-map-marker"></span>
-            {[{ location.name.{{page.lang}} }]} {[{ locations[activity.location-1].name.{{page.lang}} }]} &nbsp;
+            {[{ locations[activity.location-1].name.{{page.lang}} }]} &nbsp;
             <span class="glyphicon glyphicon-time"></span>
             {[{ activity.duration }]}
           </p>
