@@ -180,7 +180,7 @@
         {
           "hour": "15:30",
           "type": 1,
-          "talk": 9,
+          "talk": 30,
           "location": 1,
           "duration": "30min"
         },
@@ -431,6 +431,12 @@
       "name": "Martin Moroni",
       "country": 1,
       "organization": "Subsecretaría de Planeamiento Energético - Secretaría de Energía de la Nación"
+    },
+    {
+      "id": 29,
+      "name": "Carlos Brys",
+      "country": 1,
+      "organization": "OSM Argentina"
     }
   ],
   "talks": [
@@ -607,6 +613,12 @@
       "title": "Uso de OSM para la asignación eficiente de subsidios a servicios públicos mediante focalización geográfica",
       "abstract": "Para implementar una política de subsidios a los servicios públicos con focalización geográfica se debe disponer de información geográfica de indicadores de pobreza, redes de servicios públicos energético, esquema tarifario, salud pública, planes sociales, nivel económico y direcciones postales.",
       "speakers": [28]
+    },
+    {
+      "id": 30,
+      "title": "OpenStreetMap: El Poder de la Gente (para saber 'realmente' dónde estás)",
+      "abstract": "Desde los albores de la humanidad, nuestra subsistencia depende de ubicarnos en el espacio e idealizar el mapa que nos posicione en nuestro entorno. Hasta hace poco tiempo, la construcción de esos mapas estuvo en manos de cartógrafos ilustrados, gobiernos y ahora las empresas. Esta información es poder ejercido en una sociedad disciplinar que sustenta al modelo conductivista. OpenStreetMap instaura un nuevo paradigma devolviendo el 'poder a la gente', que en un modelo colaborativo y constructivista redefine el ideario general acerca de los mapas.",
+      "speakers": [29]
     }
   ],
   "types": [
