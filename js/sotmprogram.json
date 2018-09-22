@@ -29,7 +29,7 @@
         {
           "hour": "10:30",
           "type": 1,
-          "talk": 29,
+          "talk": 30,
           "location": 1,
           "duration": "30min"
         },
@@ -180,7 +180,7 @@
         {
           "hour": "15:30",
           "type": 1,
-          "talk": 30,
+          "talk": 29,
           "location": 1,
           "duration": "30min"
         },
